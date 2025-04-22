@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_10&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that presents the performance of different models on a dataset with various data augmentation strategies. The table has six columns: 'original', '+ positive', '+ negative', '- negative', and '+ positive &amp; negative'. Each row represents a different model or model configuration. The first row shows the results for the BERT model, with the original accuracy being 91.3%. The subsequent rows show the results for BERT combined with different techniques: FL (Focal Loss), DL (Dynamic Loss), and DSC (Dynamic Sample Contribution). For each model, the table provides the accuracy for the original dataset and the datasets augmented with positive examples, negative examples, down-sampled negative examples, and both positive and negative examples. The values are presented in percentages, with the changes in accuracy relative to the original model shown in parentheses. For example, BERT+FL has an accuracy of 91.86% (+0.56) on the original dataset, 92.64% (+0.37) on the + positive dataset, 90.61% (+0.53) on the + negative dataset, 90.79% (+1.06) on the - negative dataset, and 93.45% (+0.31) on the + positive &amp; negative dataset."</data>
+  <data key="d2">./example_output/images/image_10.jpg</data>
+</node>
+<node id="&quot;BERT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A deep learning model used for natural language processing tasks, specifically in the context of this table, it is the baseline model being compared against other variants."</data>
+  <data key="d2">./example_output/images/image_10.jpg</data>
+</node>
+<node id="&quot;BERT+FL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BERT that incorporates a focal loss function to improve its performance on imbalanced datasets."</data>
+  <data key="d2">./example_output/images/image_10.jpg</data>
+</node>
+<node id="&quot;BERT+DL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Another variant of BERT that includes a dynamic loss function designed to adaptively adjust the loss weights during training."</data>
+  <data key="d2">./example_output/images/image_10.jpg</data>
+</node>
+<node id="&quot;BERT+DSC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A variant of BERT that uses a dynamic sample weighting scheme to optimize the training process by giving more importance to harder samples."</data>
+  <data key="d2">./example_output/images/image_10.jpg</data>
+</node>
+<node id="&quot;ORIGINAL&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The original performance metric of the BERT model without any additional enhancements or modifications."</data>
+  <data key="d2">./example_output/images/image_10.jpg</data>
+</node>
+<node id="&quot;+ POSITIVE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The performance metric of the BERT model after adding positive examples to the training dataset."</data>
+  <data key="d2">./example_output/images/image_10.jpg</data>
+</node>
+<node id="&quot;+ NEGATIVE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The performance metric of the BERT model after adding negative examples to the training dataset."</data>
+  <data key="d2">./example_output/images/image_10.jpg</data>
+</node>
+<node id="&quot;- NEGATIVE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The performance metric of the BERT model after removing negative examples from the training dataset."</data>
+  <data key="d2">./example_output/images/image_10.jpg</data>
+</node>
+<node id="&quot;+ POSITIVE &amp; NEGATIVE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The performance metric of the BERT model after adding both positive and negative examples to the training dataset."</data>
+  <data key="d2">./example_output/images/image_10.jpg</data>
+</node>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;BERT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;BERT+FL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+FL是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;BERT+DL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DL是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;BERT+DSC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DSC是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;ORIGINAL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"original是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;+ POSITIVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"+ positive是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;+ NEGATIVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"+ negative是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;- NEGATIVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"- negative是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;+ POSITIVE &amp; NEGATIVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"+ positive &amp; negative是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;ORIGINAL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The original performance of BERT is 91.3, which serves as the baseline for comparison with other variants and conditions."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;+ POSITIVE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"When positive examples are added, BERT's performance increases to 92.27, showing an improvement over the original performance."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;+ NEGATIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"When negative examples are added, BERT's performance decreases slightly to 90.08, indicating a minor degradation compared to the original performance."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;- NEGATIVE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"When negative examples are removed, BERT's performance drops to 89.73, showing a significant decrease compared to the original performance."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;+ POSITIVE &amp; NEGATIVE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"When both positive and negative examples are added, BERT's performance peaks at 93.14, demonstrating the highest improvement over the original performance."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;ORIGINAL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT+FL improves the original performance by 0.56 points, bringing the score to 91.86."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;+ POSITIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"With positive examples, BERT+FL's performance further improves to 92.64, showing a consistent trend of enhancement."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;+ NEGATIVE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Adding negative examples results in a slight drop in performance for BERT+FL, reducing the score to 90.61."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;- NEGATIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Removing negative examples leads to a notable increase in BERT+FL's performance, reaching 90.79."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;+ POSITIVE &amp; NEGATIVE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Combining both positive and negative examples yields the best performance for BERT+FL at 93.45."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;ORIGINAL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT+DL enhances the original performance by 0.62 points, achieving a score of 91.92."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;+ POSITIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Positive examples boost BERT+DL's performance to 92.87, indicating a strong positive impact."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;+ NEGATIVE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Negative examples cause a minor decline in BERT+DL's performance, dropping to 90.22."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;- NEGATIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Eliminating negative examples improves BERT+DL's performance to 90.49."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;+ POSITIVE &amp; NEGATIVE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Incorporating both types of examples results in the highest performance for BERT+DL at 93.52."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;ORIGINAL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT+DSC outperforms the original BERT by 0.81 points, scoring 92.11."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;+ POSITIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Positive examples further enhance BERT+DSC's performance to 92.92, showing a clear benefit."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;+ NEGATIVE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Negative examples lead to a slight decrease in BERT+DSC's performance, reducing it to 90.78."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;- NEGATIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Removing negative examples improves BERT+DSC's performance to 90.80."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;+ POSITIVE &amp; NEGATIVE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Combining positive and negative examples achieves the best performance for BERT+DSC at 93.63."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

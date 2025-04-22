@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_11&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 8: The effect of different data augmentation ways for QQP in terms of F1-score.' The table is structured with two main columns: SST-2 and SST-5, each representing different datasets. Under each dataset, there are two sub-columns labeled 'Acc' for accuracy. The rows represent different models used for data augmentation: BERT+CE, BERT+DL, and BERT+DSC. The values in the table are as follows: for SST-2, BERT+CE has an accuracy of 94.90%, BERT+DL has 94.37%, and BERT+DSC has 94.84%. For SST-5, BERT+CE has an accuracy of 55.57%, BERT+DL has 54.63%, and BERT+DSC has 55.19%. The table highlights the performance of different models across the two datasets, with BERT+CE achieving the highest accuracy on both SST-2 and SST-5."</data>
+  <data key="d2">./example_output/images/image_11.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying the accuracy of different models on SST-2 and SST-5 datasets."</data>
+  <data key="d2">./example_output/images/image_11.jpg</data>
+</node>
+<node id="&quot;BERT+CE&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that combines BERT with Cross-Entropy loss, achieving 94.90% accuracy on SST-2 and 55.57% on SST-5."</data>
+  <data key="d2">./example_output/images/image_11.jpg</data>
+</node>
+<node id="&quot;BERT+DL&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that combines BERT with Dice Loss, achieving 94.37% accuracy on SST-2 and 54.63% on SST-5."</data>
+  <data key="d2">./example_output/images/image_11.jpg</data>
+</node>
+<node id="&quot;BERT+DSC&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that combines BERT with Dynamic Sample Consistency, achieving 94.84% accuracy on SST-2 and 55.19% on SST-5."</data>
+  <data key="d2">./example_output/images/image_11.jpg</data>
+</node>
+<node id="&quot;SST-2&quot;">
+  <data key="d0">"DATASET"</data>
+  <data key="d1">"A dataset used for sentiment analysis with two classes."</data>
+  <data key="d2">./example_output/images/image_11.jpg</data>
+</node>
+<node id="&quot;SST-5&quot;">
+  <data key="d0">"DATASET"</data>
+  <data key="d1">"A dataset used for sentiment analysis with five classes."</data>
+  <data key="d2">./example_output/images/image_11.jpg</data>
+</node>
+<node id="&quot;TABLE 8&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Table 8 illustrates the effect of different data augmentation methods on the QQP dataset in terms of F1-score."</data>
+  <data key="d2">./example_output/images/image_11.jpg</data>
+</node>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_11中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;BERT+CE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+CE是从image_11中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;BERT+DL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DL是从image_11中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;BERT+DSC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DSC是从image_11中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;SST-2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SST-2是从image_11中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;SST-5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SST-5是从image_11中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;TABLE 8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_11" is the image of "TABLE 8".</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;SST-2&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT+CE model was tested on the SST-2 dataset."</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;SST-5&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT+CE model was tested on the SST-5 dataset."</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;SST-2&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT+DL model was tested on the SST-2 dataset."</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;SST-5&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT+DL model was tested on the SST-5 dataset."</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;SST-2&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT+DSC model was tested on the SST-2 dataset."</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;SST-5&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT+DSC model was tested on the SST-5 dataset."</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

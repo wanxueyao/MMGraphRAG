@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'English CoNLL 2003' that provides performance metrics for various models on the named entity recognition (NER) task. The table is structured with four main columns: Model, Precision (Prec.), Recall (Rec.), and F1 score. Each row represents a different model and its corresponding performance metrics. The models listed are ELMo (Peters et al., 2018), CVT (Clark et al., 2018), BERT-Tagger (Devlin et al., 2018), BERT-MRC (Li et al., 2019), BERT-MRC+FL, BERT-MRC+DL, and BERT-MRC+DSC. The precision, recall, and F1 scores are provided for each model. Notably, BERT-MRC+DSC achieves the highest F1 score of 93.33, which is an improvement of +0.29 over BERT-MRC. The table highlights the superior performance of the DSC loss in enhancing the F1 score compared to other losses."</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;ENGLISH CONLL 2003&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">The ENGLISH CONLL 2003 event is a prestigious conference where models are evaluated based on their performance metrics such as precision, recall, and F1 score. It serves as a benchmark for natural language processing tasks, particularly named entity recognition, and is a platform for researchers to compare and improve their models.</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;ELMO(PETERS ET AL., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Peters et al. in 2018 with an F1 score of 92.22."</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;CVT(CLARK ET AL., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Clark et al. in 2018 with an F1 score of 92.6."</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;BERT-TAGGER (Devlin et al., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">BERT-TAGGER, developed by Devlin et al. in 2018, is a model that has demonstrated exceptional performance in part-of-speech tagging tasks. It utilizes the BERT (Bidirectional Encoder Representations from Transformers) architecture as its backbone, achieving an impressive F1 score of 92.8. This model has set a high standard in the field of natural language processing, particularly in tasks related to understanding the grammatical structure of text.</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;BERT-MRC(LI ET AL., 2019)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Li et al. in 2019 with a precision of 92.33, recall of 94.61, and F1 score of 93.04."</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;BERT-MRC+FL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BERT-MRC with a precision of 93.13, recall of 93.09, and F1 score of 93.11, showing an improvement of +0.06 over BERT-MRC."</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;BERT-MRC+DL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BERT-MRC with a precision of 93.22, recall of 93.12, and F1 score of 93.17, showing an improvement of +0.12 over BERT-MRC."</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;BERT-MRC+DSC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BERT-MRC with a precision of 93.41, recall of 93.25, and F1 score of 93.33, showing the highest improvement of +0.29 over BERT-MRC."</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;TABLE 5&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Table 5 presents the experimental results for the NER task."</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ENGLISH CONLL 2003&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"English CoNLL 2003是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ELMO(PETERS ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"ELMo(Peters et al., 2018)是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;CVT(CLARK ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CVT(Clark et al., 2018)是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BERT-TAGGER (Devlin et al., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-Tagger(Devlin et al., 2018)是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BERT-MRC(LI ET AL., 2019)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC(Li et al., 2019)是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BERT-MRC+FL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC+FL是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BERT-MRC+DL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC+DL是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BERT-MRC+DSC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC+DSC是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TABLE 5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_5" is the image of "TABLE 5".</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH CONLL 2003&quot;" target="&quot;ELMO(PETERS ET AL., 2018)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"ELMo was evaluated in the English CoNLL 2003 event."</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH CONLL 2003&quot;" target="&quot;CVT(CLARK ET AL., 2018)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"CVT was evaluated in the English CoNLL 2003 event."</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH CONLL 2003&quot;" target="&quot;BERT-TAGGER (Devlin et al., 2018)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT-Tagger was evaluated in the English CoNLL 2003 event."</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH CONLL 2003&quot;" target="&quot;BERT-MRC(LI ET AL., 2019)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT-MRC was evaluated in the English CoNLL 2003 event."</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH CONLL 2003&quot;" target="&quot;BERT-MRC+FL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT-MRC+FL was evaluated in the English CoNLL 2003 event."</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH CONLL 2003&quot;" target="&quot;BERT-MRC+DL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT-MRC+DL was evaluated in the English CoNLL 2003 event."</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH CONLL 2003&quot;" target="&quot;BERT-MRC+DSC&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT-MRC+DSC was evaluated in the English CoNLL 2003 event."</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

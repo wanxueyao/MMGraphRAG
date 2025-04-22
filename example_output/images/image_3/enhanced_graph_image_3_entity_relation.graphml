@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 3: Experimental results for Chinese POS datasets including CTB5, CTB6 and UD1.4.' The table compares the performance of different models on part-of-speech tagging tasks across three datasets: CTB5, CTB6, and UD1.4. The columns represent the datasets, while the rows represent various models and their corresponding metrics: Precision (Prec.), Recall (Rec.), and F1 score. The models listed are Joint-POS(Sig), Joint-POS(Ens), Lattice-LSTM, BERT-Tagger, BERT+FL, BERT+DL, and BERT+DSC. For example, on the CTB5 dataset, the BERT-Tagger model achieves a Precision of 95.86, Recall of 96.26, and an F1 score of 96.06. The BERT+DSC model performs the best with a Precision of 97.10, Recall of 98.75, and an F1 score of 97.92. The table also includes improvements over the baseline in parentheses, such as (+1.86) for the BERT+DSC model on the CTB5 dataset."</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;CTB5&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A dataset used for evaluating the performance of different models in terms of precision, recall, and F1 score."</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;CTB6&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Another dataset used for evaluating the performance of different models in terms of precision, recall, and F1 score."</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;UD1.4&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Yet another dataset used for evaluating the performance of different models in terms of precision, recall, and F1 score."</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;JOINT-POS(SIG)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">JOINT-POS(SIG) is a model developed by Shao et al. in 2017 for part-of-speech tagging tasks, which jointly learns Chinese word segmentation and POS tagging. It was used as a baseline in experiments comparing different loss functions for POS tagging on Chinese datasets.</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;JOINT-POS(ENS)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">JOINT-POS(ENS) is another model developed by Shao et al. in 2017 for part-of-speech tagging tasks, similar to JOINT-POS(SIG), and was used as a baseline in experiments comparing different loss functions for POS tagging on English datasets.</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;LATTICE-LSTM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Zhang and Yang in 2018 for tagging tasks."</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;BERT-TAGGER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Devlin et al. in 2018 for tagging tasks."</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;BERT+FL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">BERT+FL is an enhanced version of BERT-Tagger that incorporates focal loss, which is designed to handle the foreground-background tradeoff encountered during training, especially useful for one-stage object detectors in computer vision tasks.</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;BERT+DL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">BERT+DL is an enhanced version of BERT-Tagger with dynamic loss, which is a strategy to address data imbalance issues in training by adjusting the loss function to give less weight to the majority class and more weight to the minority class.</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;BERT+DSC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">BERT+DSC is an enhanced version of BERT-Tagger with dynamic sampling consistency, which is a method to address data imbalance by changing the data distribution during training, either through weighting factors or resampling the datasets.</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CTB5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CTB5是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CTB6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CTB6是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;UD1.4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"UD1.4是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;JOINT-POS(SIG)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Joint-POS(Sig)是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;JOINT-POS(ENS)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Joint-POS(Ens)是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;LATTICE-LSTM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Lattice-LSTM是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BERT-TAGGER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-Tagger是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BERT+FL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+FL是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BERT+DL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DL是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BERT+DSC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DSC是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;JOINT-POS(SIG)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Joint-POS(Sig) was evaluated on CTB5."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;JOINT-POS(ENS)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Joint-POS(Ens) was evaluated on CTB5."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;LATTICE-LSTM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Lattice-LSTM was evaluated on CTB5."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;BERT-TAGGER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT-Tagger was evaluated on CTB5."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;BERT+FL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+FL was evaluated on CTB5."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;BERT+DL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+DL was evaluated on CTB5."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;BERT+DSC&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+DSC was evaluated on CTB5."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB6&quot;" target="&quot;JOINT-POS(SIG)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Joint-POS(Sig) was evaluated on CTB6."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB6&quot;" target="&quot;JOINT-POS(ENS)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Joint-POS(Ens) was evaluated on CTB6."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB6&quot;" target="&quot;LATTICE-LSTM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Lattice-LSTM was evaluated on CTB6."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB6&quot;" target="&quot;BERT-TAGGER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT-Tagger was evaluated on CTB6."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB6&quot;" target="&quot;BERT+FL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+FL was evaluated on CTB6."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB6&quot;" target="&quot;BERT+DL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+DL was evaluated on CTB6."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB6&quot;" target="&quot;BERT+DSC&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+DSC was evaluated on CTB6."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UD1.4&quot;" target="&quot;JOINT-POS(SIG)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Joint-POS(Sig) was evaluated on UD1.4."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UD1.4&quot;" target="&quot;JOINT-POS(ENS)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Joint-POS(Ens) was evaluated on UD1.4."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UD1.4&quot;" target="&quot;LATTICE-LSTM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Lattice-LSTM was evaluated on UD1.4."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UD1.4&quot;" target="&quot;BERT-TAGGER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT-Tagger was evaluated on UD1.4."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UD1.4&quot;" target="&quot;BERT+FL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+FL was evaluated on UD1.4."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UD1.4&quot;" target="&quot;BERT+DL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+DL was evaluated on UD1.4."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UD1.4&quot;" target="&quot;BERT+DSC&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+DSC was evaluated on UD1.4."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1: Number of positive and negative examples and their ratios for different data-imbalanced NLP tasks.' The table is structured with four main columns: Task, # neg, # pos, and ratio. Each row represents a different NLP task and contains the following values: \n- For CoNLL03 NER, the number of negative examples (# neg) is 170K, the number of positive examples (# pos) is 34K, and the ratio is 4.98. \n- For OntoNotes5.0 NER, the number of negative examples (# neg) is 1.96M, the number of positive examples (# pos) is 239K, and the ratio is 8.18. \n- For SQuAD 1.1 (Rajpurkar et al., 2016), the number of negative examples (# neg) is 10.3M, the number of positive examples (# pos) is 175K, and the ratio is 55.9. \n- For SQuAD 2.0 (Rajpurkar et al., 2018), the number of negative examples (# neg) is 15.4M, the number of positive examples (# pos) is 188K, and the ratio is 82.0. \n- For QUOREF (Dasigi et al., 2019), the number of negative examples (# neg) is 6.52M, the number of positive examples (# pos) is 38.6K, and the ratio is 169. \nThe table highlights the significant data imbalance in these NLP tasks, with the number of negative examples far exceeding the number of positive examples."</data>
+  <data key="d2">./example_output/images/image_1.jpg</data>
+</node>
+<node id="&quot;CONLL03 NER&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A named entity recognition task with 170K negative and 34K positive samples, resulting in a ratio of 4.98."</data>
+  <data key="d2">./example_output/images/image_1.jpg</data>
+</node>
+<node id="&quot;ONTONOTES5.0 NER&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A named entity recognition task with 1.96M negative and 239K positive samples, resulting in a ratio of 8.18."</data>
+  <data key="d2">./example_output/images/image_1.jpg</data>
+</node>
+<node id="&quot;SQUAD 1.1&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">SQUAD 1.1 is a question-answering task that features a significant data imbalance, with 10.3 million negative samples and 175,000 positive samples, resulting in a negative-to-positive ratio of 55.9. This task is emblematic of the data imbalance issues in NLP, where the majority of examples are easy negatives, overwhelming the training process and creating a discrepancy between training objectives and evaluation metrics like the F1 score.</data>
+  <data key="d2">./example_output/images/image_1.jpg</data>
+</node>
+<node id="&quot;SQUAD 2.0&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">SQUAD 2.0 represents an updated version of the question-answering task, exacerbating the data imbalance challenge with 15.4 million negative samples and 188,000 positive samples, leading to a negative-to-positive ratio of 82.0. This event highlights the increasing difficulty in training models to accurately answer questions when faced with a vast number of easy-negative examples, which can dominate the training process and affect the model's ability to generalize.</data>
+  <data key="d2">./example_output/images/image_1.jpg</data>
+</node>
+<node id="&quot;QUOREF&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">QUOREF is a coreference resolution task that also struggles with data imbalance, presenting 6.52 million negative samples and 38,600 positive samples, culminating in a negative-to-positive ratio of 169. This task is indicative of the broader issue of data imbalance in NLP, where the model must learn to distinguish between a large number of easy-negative examples and the fewer hard-negative or positive examples, which is crucial for effective coreference resolution.</data>
+  <data key="d2">./example_output/images/image_1.jpg</data>
+</node>
+<node id="&quot;TABLE 1&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Table 1 in the paper provides the number of positive and negative examples and their ratios for different data-imbalanced NLP tasks."</data>
+  <data key="d2">./example_output/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;CONLL03 NER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CoNLL03 NER是从image_1中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;ONTONOTES5.0 NER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"OntoNotes5.0 NER是从image_1中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SQUAD 1.1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SQuAD 1.1是从image_1中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SQUAD 2.0&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SQuAD 2.0是从image_1中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;QUOREF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"QUOREF是从image_1中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;TABLE 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_1" is the image of "TABLE 1".</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CONLL03 NER&quot;" target="&quot;ONTONOTES5.0 NER&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are named entity recognition tasks but OntoNotes5.0 has a larger dataset size and higher ratio of negative to positive samples."</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SQUAD 1.1&quot;" target="&quot;SQUAD 2.0&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"SQuAD 2.0 is an updated version of SQuAD 1.1 with more data and a higher ratio of negative to positive samples."</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SQUAD 1.1&quot;" target="&quot;QUOREF&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both are natural language processing tasks but QUOREF focuses on coreference resolution while SQuAD 1.1 is a question-answering task."</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SQUAD 2.0&quot;" target="&quot;QUOREF&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both are natural language processing tasks but QUOREF focuses on coreference resolution while SQuAD 2.0 is a question-answering task."</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

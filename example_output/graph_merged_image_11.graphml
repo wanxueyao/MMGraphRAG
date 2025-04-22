@@ -1,0 +1,3043 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_11&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 8: The effect of different data augmentation ways for QQP in terms of F1-score.' The table is structured with two main columns: SST-2 and SST-5, each representing different datasets. Under each dataset, there are two sub-columns labeled 'Acc' for accuracy. The rows represent different models used for data augmentation: BERT+CE, BERT+DL, and BERT+DSC. The values in the table are as follows: for SST-2, BERT+CE has an accuracy of 94.90%, BERT+DL has 94.37%, and BERT+DSC has 94.84%. For SST-5, BERT+CE has an accuracy of 55.57%, BERT+DL has 54.63%, and BERT+DSC has 55.19%. The table highlights the performance of different models across the two datasets, with BERT+CE achieving the highest accuracy on both SST-2 and SST-5."</data>
+  <data key="d2">./example_output/images/image_11.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">OBJECT</data>
+  <data key="d1">A table displaying the accuracy of different models on SST-2 and SST-5 datasets. Table 9 is referenced to discuss the effect of DL and DSC on sentiment classification tasks.</data>
+  <data key="d2">./example_output/images/image_11.jpg&lt;SEP&gt;chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;BERT+CE&quot;">
+  <data key="d0">MODEL</data>
+  <data key="d1">A model that combines BERT with Cross-Entropy loss, achieving 94.90% accuracy on SST-2 and 55.57% on SST-5. BERT is used in experiments for sentiment classification tasks and is fine-tuned with different training objectives.</data>
+  <data key="d2">./example_output/images/image_11.jpg&lt;SEP&gt;./example_output/images/image_10.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;BERT+DL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">BERT+DL is an enhanced version of BERT-Tagger with dynamic loss, which is a strategy to address data imbalance issues in training by adjusting the loss function to give less weight to the majority class and more weight to the minority class.</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;BERT+DSC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">BERT+DSC is an enhanced version of BERT-Tagger with dynamic sampling consistency, which is a method to address data imbalance by changing the data distribution during training, either through weighting factors or resampling the datasets.</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;SST-2&quot;">
+  <data key="d0">DATASET</data>
+  <data key="d1">SST-2 is a subset of the Stanford Sentiment Treebank dataset used for sentiment classification experiments. A dataset used for sentiment analysis with two classes.</data>
+  <data key="d2">./example_output/images/image_11.jpg&lt;SEP&gt;chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;SST-5&quot;">
+  <data key="d0">DATASET</data>
+  <data key="d1">SST-5 is a subset of the Stanford Sentiment Treebank dataset used for sentiment classification experiments. A dataset used for sentiment analysis with five classes.</data>
+  <data key="d2">./example_output/images/image_11.jpg&lt;SEP&gt;chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;TABLE 8&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Table 8 illustrates the effect of different data augmentation methods on the QQP dataset in terms of F1-score."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;IMAGE_10&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that presents the performance of different models on a dataset with various data augmentation strategies. The table has six columns: 'original', '+ positive', '+ negative', '- negative', and '+ positive &amp; negative'. Each row represents a different model or model configuration. The first row shows the results for the BERT model, with the original accuracy being 91.3%. The subsequent rows show the results for BERT combined with different techniques: FL (Focal Loss), DL (Dynamic Loss), and DSC (Dynamic Sample Contribution). For each model, the table provides the accuracy for the original dataset and the datasets augmented with positive examples, negative examples, down-sampled negative examples, and both positive and negative examples. The values are presented in percentages, with the changes in accuracy relative to the original model shown in parentheses. For example, BERT+FL has an accuracy of 91.86% (+0.56) on the original dataset, 92.64% (+0.37) on the + positive dataset, 90.61% (+0.53) on the + negative dataset, 90.79% (+1.06) on the - negative dataset, and 93.45% (+0.31) on the + positive &amp; negative dataset."</data>
+  <data key="d2">./example_output/images/image_10.jpg</data>
+</node>
+<node id="&quot;BERT+FL&quot;">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">An enhanced version of BERT that incorporates a focal loss function to improve its performance on imbalanced datasets. Focal loss is one of the losses compared in the paper, showing little performance improvement on CTB5 and CTB6.</data>
+  <data key="d2">./example_output/images/image_10.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;ORIGINAL&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">The original performance metric of the BERT model without any additional enhancements or modifications. SQuAD v1.1 is a dataset used for evaluating the performance of models in the task of answering questions.</data>
+  <data key="d2">./example_output/images/image_10.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;+POSITIVE&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">The performance metric of the BERT model after adding positive examples to the training dataset. Positive augmentation refers to the process of creating a balanced dataset by adding positive examples to the original set.</data>
+  <data key="d2">./example_output/images/image_10.jpg&lt;SEP&gt;chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;+NEGATIVE&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">The performance metric of the BERT model after adding negative examples to the training dataset. Negative augmentation refers to the process of creating a more imbalanced dataset by choosing negative training examples as templates.</data>
+  <data key="d2">./example_output/images/image_10.jpg&lt;SEP&gt;chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;-NEGATIVE&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">The performance metric of the BERT model after removing negative examples from the training dataset. Negative downsampling is the process of reducing the number of negative examples to balance the training set.</data>
+  <data key="d2">./example_output/images/image_10.jpg&lt;SEP&gt;chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;+POSITIVE &amp; NEGATIVE&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">The performance metric of the BERT model after adding both positive and negative examples to the training dataset. Positive and negative augmentation refers to the process of augmenting the original training data with additional positive and negative examples while maintaining the same data distribution.</data>
+  <data key="d2">./example_output/images/image_10.jpg&lt;SEP&gt;chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 6: Experimental results for MRC task.' The table compares the performance of different models on two datasets, MRPC and QQP, using the F1 score metric. The rows represent different models and their variations, while the columns show the F1 scores for each dataset. The models listed are BERT (Devlin et al., 2018), BERT+FL, BERT+DL, BERT+DSC, XLNet (Yang et al., 2019), XLNet+FL, XLNet+DL, and XLNet+DSC. For the MRPC dataset, the F1 scores are as follows: BERT has an F1 score of 88.0, BERT+FL has 88.43 (+0.43), BERT+DL has 88.71 (+0.71), and BERT+DSC has 88.92 (+0.92). For the QQP dataset, the F1 scores are: BERT has an F1 score of 91.3, BERT+FL has 91.86 (+0.56), BERT+DL has 91.92 (+0.62), and BERT+DSC has 92.11 (+0.81). For XLNet, the F1 scores are: XLNet has an F1 score of 89.2 for MRPC and 91.8 for QQP, XLNet+FL has 89.25 (+0.05) for MRPC and 92.31 (+0.51) for QQP, XLNet+DL has 89.33 (+0.13) for MRPC and 92.39 (+0.59) for QQP, and XLNet+DSC has 89.78 (+0.58) for MRPC and 92.60 (+0.79) for QQP. The table highlights the performance improvements when additional techniques (FL, DL, DSC) are applied to both BERT and XLNet."</data>
+  <data key="d2">./example_output/images/image_9.jpg</data>
+</node>
+<node id="&quot;XLNET (YANG ET AL., 2019)&quot;">
+  <data key="d2">./example_output/images/image_9.jpg</data>
+  <data key="d1">"XLNet (Yang et al., 2019)是从image_9中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;XLNET+FL&quot;">
+  <data key="d2">./example_output/images/image_8.jpg</data>
+  <data key="d1">XLNET+FL is an enhanced version of XLNet, integrating focal loss, which maintains similar performance to the base XLNet model on SQuAD v1.1 and v2.0 datasets. This suggests that while focal loss can be beneficial in certain scenarios, in this case, it does not significantly alter the performance of XLNet.</data>
+  <data key="d0">"ORGANIZATION"</data>
+</node>
+<node id="&quot;XLNET+DL&quot;">
+  <data key="d2">./example_output/images/image_8.jpg</data>
+  <data key="d1">XLNET+DL is an adaptation of XLNet with dynamic loss, showing slight improvements over the base XLNet in EM and F1 scores on SQuAD v1.1 and v2.0. This indicates that dynamic loss can provide a modest enhancement to the performance of XLNet on question answering tasks.</data>
+  <data key="d0">"ORGANIZATION"</data>
+</node>
+<node id="&quot;XLNET+DSC&quot;">
+  <data key="d2">./example_output/images/image_8.jpg</data>
+  <data key="d1">XLNET+DSC is a version of XLNet that uses dynamic sample weighting (DSC), achieving the highest EM and F1 scores among XLNet-based models on SQuAD v1.1 and v2.0. This underscores the effectiveness of DSC in improving the performance of XLNet, particularly in the context of machine reading comprehension.</data>
+  <data key="d0">"ORGANIZATION"</data>
+</node>
+<node id="Table 6: Experimental results for MRC task.">
+  <data key="d0">IMG_ENTITY</data>
+  <data key="d1">A table comparing the performance of different models on two datasets, MRPC and QQP, using the F1 score metric. The table includes variations of BERT and XLNet models with additional techniques (FL, DL, DSC) applied to them.</data>
+  <data key="d2">./example_output/images/image_9.jpg</data>
+</node>
+<node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that presents the experimental results for the machine reading comprehension (MRC) task using different models and datasets. The table is divided into rows and columns. The rows represent different models: QANet, BERT, BERT+FL, BERT+DL, BERT+DSC, XLNet, XLNet+FL, XLNet+DL, and XLNet+DSC. The columns are labeled with the datasets SQuAD v1.1, SQuAD v2.0, and QuoRef, each further divided into EM (Exact Match) and F1 scores. For example, QANet scores 73.6 on EM and 82.7 on F1 for SQuAD v1.1, while BERT scores 84.1 on EM and 90.9 on F1 for the same dataset. The table also shows the performance improvements of the proposed methods over the baseline models. For instance, BERT+DSC achieves 85.34 on EM and 91.97 on F1 for SQuAD v1.1, which is an improvement of +1.24 and +1.07 respectively over BERT. Similarly, XLNet+DSC achieves 89.79 on EM and 95.77 on F1 for SQuAD v1.1, which is an improvement of +0.84 and +1.25 respectively over XLNet. The table highlights the significant performance boost obtained by the proposed DSC loss method on both EM and F1 scores across all datasets."</data>
+  <data key="d2">./example_output/images/image_8.jpg</data>
+</node>
+<node id="&quot;QANET&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"QANet is a model developed by Yu et al., utilizing convolutions and self-attentions for question answering tasks."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;XLNet&quot;">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">XLNet is a model proposed by Yang et al., featuring a generalized autoregressive pretraining method for learning bidirectional contexts. A model developed by Yang et al. in 2019, surpassing BERT in EM and F1 scores on SQuAD v1.1 and v2.0.</data>
+  <data key="d2">./example_output/images/image_8.jpg&lt;SEP&gt;chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;MRC TASK&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"MRC task refers to the machine reading comprehension task, which is focused on evaluating model performance in understanding and answering questions based on given text."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 5: Experimental results for NER task.' The table is divided into two main sections, each representing different datasets: Chinese MSRA and Chinese OntoNotes 4.0. Each section contains rows listing various models used for Named Entity Recognition (NER) tasks and their corresponding performance metrics: Precision (Prec.), Recall (Rec.), and F1 score. For the Chinese MSRA dataset, the models listed are Lattice-LSTM, BERT-Tagger, Glyce-BERT, BERT-MRC, BERT-MRC+FL, BERT-MRC+DL, and BERT-MRC+DSC. The highest F1 score is achieved by BERT-MRC+DSC with a value of 96.72. For the Chinese OntoNotes 4.0 dataset, the same models are listed, and the highest F1 score is also achieved by BERT-MRC+DSC with a value of 84.47. The table highlights the performance improvements of the DSC loss over other models, with specific gains indicated in parentheses next to the F1 scores."</data>
+  <data key="d2">./example_output/images/image_7.jpg</data>
+</node>
+<node id="&quot;BERT-MRC+DSC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BERT-MRC with a precision of 93.41, recall of 93.25, and F1 score of 93.33, showing the highest improvement of +0.29 over BERT-MRC."</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;CHINESE MSRA&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">CHINESE MSRA is a dataset used for evaluating named entity recognition models, where BERT-MRC+DSC achieves a F1 score of 96.72. It is also mentioned as a dataset used for named entity recognition experiments, proposed by Levow in 2006.</data>
+  <data key="d2">./example_output/images/image_7.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;CHINESE ONTONOTES 4.0&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">CHINESE ONTONOTES 4.0 is another dataset used for evaluating named entity recognition models, where BERT-MRC+DSC achieves a F1 score of 84.47. It is also mentioned as a dataset used for named entity recognition experiments, proposed by Pradhan et al. in 2011.</data>
+  <data key="d2">./example_output/images/image_7.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;TABLE 5&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Table 5 presents the experimental results for the NER task."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'English OntoNotes 5.0' that provides performance metrics for various models on the named entity recognition (NER) task. The table is structured with four main columns: Model, Precision (Prec.), Recall (Rec.), and F1 score. Each row represents a different model and its corresponding performance metrics. The models listed are CVT (Clark et al., 2018), BERT-Tagger (Devlin et al., 2018), BERT-MRC (Li et al., 2019), BERT-MRC+FL, BERT-MRC+DL, and BERT-MRC+DSC. The precision values range from 90.01 to 92.70, the recall values range from 88.35 to 92.56, and the F1 scores range from 88.8 to 92.07. Notably, BERT-MRC+DSC achieves the highest F1 score of 92.07, which is an improvement of +0.96 over BERT-MRC."</data>
+  <data key="d2">./example_output/images/image_6.jpg</data>
+</node>
+<node id="&quot;ENGLISH ONTONOTES 5.0&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">A dataset used for evaluating the performance of different models in natural language processing tasks, including named entity recognition.</data>
+  <data key="d2">./example_output/images/image_6.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;CVT (CLARK ET AL., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Clark et al. in 2018, achieving an F1 score of 88.8 on the English OntoNotes 5.0 dataset."</data>
+  <data key="d2">./example_output/images/image_6.jpg</data>
+</node>
+<node id="&quot;BERT-TAGGER (DEVLIN ET AL., 2018)&quot;">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Bert-Tagger treats part-of-speech as a tagging task, proposed by Devlin et al. in 2018, achieving a precision of 90.01, recall of 88.35, and an F1 score of 89.16 on the English OntoNotes 5.0 dataset.</data>
+  <data key="d2">./example_output/images/image_6.jpg&lt;SEP&gt;./example_output/images/image_4.jpg&lt;SEP&gt;./example_output/images/image_3.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;BERT-MRC (LI ET AL., 2019)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Li et al. in 2019, achieving a precision of 92.98, recall of 89.95, and an F1 score of 91.11 on the English OntoNotes 5.0 dataset."</data>
+  <data key="d2">./example_output/images/image_6.jpg</data>
+</node>
+<node id="&quot;BERT-MRC+FL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BERT-MRC with a precision of 93.13, recall of 93.09, and F1 score of 93.11, showing an improvement of +0.06 over BERT-MRC."</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;BERT-MRC+DL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BERT-MRC with a precision of 93.22, recall of 93.12, and F1 score of 93.17, showing an improvement of +0.12 over BERT-MRC."</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;TABLE 3&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Table 3 contains experimental results for Chinese POS datasets including CTB5, CTB6, and UD1.4."&lt;SEP&gt;"Table 3 presents the experimental results on Chinese datasets for POS tagging."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'English CoNLL 2003' that provides performance metrics for various models on the named entity recognition (NER) task. The table is structured with four main columns: Model, Precision (Prec.), Recall (Rec.), and F1 score. Each row represents a different model and its corresponding performance metrics. The models listed are ELMo (Peters et al., 2018), CVT (Clark et al., 2018), BERT-Tagger (Devlin et al., 2018), BERT-MRC (Li et al., 2019), BERT-MRC+FL, BERT-MRC+DL, and BERT-MRC+DSC. The precision, recall, and F1 scores are provided for each model. Notably, BERT-MRC+DSC achieves the highest F1 score of 93.33, which is an improvement of +0.29 over BERT-MRC. The table highlights the superior performance of the DSC loss in enhancing the F1 score compared to other losses."</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;ENGLISH CONLL 2003&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">The ENGLISH CONLL 2003 event is a prestigious conference where models are evaluated based on their performance metrics such as precision, recall, and F1 score. It serves as a benchmark for natural language processing tasks, particularly named entity recognition, and is a platform for researchers to compare and improve their models.</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;ELMO(PETERS ET AL., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Peters et al. in 2018 with an F1 score of 92.22."</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;CVT(CLARK ET AL., 2018)&quot;">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">A model developed by Clark et al. in 2018 with an F1 score of 92.6. CVT stands for Cross-View Training, a method used to improve the representations of a Bi-LSTM encoder, proposed by Clark et al. in 2018.</data>
+  <data key="d2">./example_output/images/image_5.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;BERT-TAGGER (Devlin et al., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">BERT-TAGGER, developed by Devlin et al. in 2018, is a model that has demonstrated exceptional performance in part-of-speech tagging tasks. It utilizes the BERT (Bidirectional Encoder Representations from Transformers) architecture as its backbone, achieving an impressive F1 score of 92.8. This model has set a high standard in the field of natural language processing, particularly in tasks related to understanding the grammatical structure of text.</data>
+  <data key="d2">./example_output/images/image_5.jpg</data>
+</node>
+<node id="&quot;BERT-MRC(LI ET AL., 2019)&quot;">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">A model developed by Li et al. in 2019 with a precision of 92.33, recall of 94.61, and F1 score of 93.04. BERT-MRC formulates NER as a machine reading comprehension task, proposed by Li et al. in 2019.</data>
+  <data key="d2">./example_output/images/image_5.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 4: Experimental results for English POS datasets.' The table is divided into two main sections, each representing different datasets: English WSJ and English Tweets. Each section contains rows corresponding to different models and their performance metrics. For the English WSJ dataset, the columns are 'Model,' 'Prec.', 'Rec.', and 'F1.' The models listed include Meta BiLSTM, BERT-Tagger, BERT-Tagger+FL, BERT-Tagger+DL, and BERT-Tagger+DSC. The precision (Prec.), recall (Rec.), and F1 scores are provided for each model. For example, BERT-Tagger has a precision of 99.21, recall of 98.36, and an F1 score of 98.86. The best-performing model in this dataset is BERT-Tagger+DSC with a precision of 99.41, recall of 98.93, and an F1 score of 99.38. For the English Tweets dataset, the same structure is followed. The models listed are FastText+CNN+CRF, BERT-Tagger, BERT-Tagger+FL, BERT-Tagger+DL, and BERT-Tagger+DSC. The precision, recall, and F1 scores are provided for each model. For example, BERT-Tagger has a precision of 92.33, recall of 91.98, and an F1 score of 92.34. The best-performing model in this dataset is BERT-Tagger+DSC with a precision of 92.87, recall of 93.54, and an F1 score of 92.58."</data>
+  <data key="d2">./example_output/images/image_4.jpg</data>
+</node>
+<node id="&quot;ENGLISH WSJ&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">ENGLISH WSJ is a dataset used for evaluating the performance of different models in terms of precision, recall, and F1 score. Wall Street Journal is an English dataset used for part-of-speech tagging experiments.</data>
+  <data key="d2">./example_output/images/image_4.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;META BILSTM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">META BILSTM is a sequence tagging model developed by Bohnet et al. in 2018. This model is utilized for various natural language processing tasks such as part-of-speech tagging and named entity recognition, as mentioned in the context of experiments and evaluations.</data>
+  <data key="d2">./example_output/images/image_4.jpg</data>
+</node>
+<node id="&quot;BERT-TAGGER+FL&quot;">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">BERT-TAGGER+FL is an enhanced version of BERT-Tagger with a focal loss component. Focal loss is a loss function used in object detection to handle the foreground-background tradeoff during training by down-weighting well-classified examples.</data>
+  <data key="d2">./example_output/images/image_4.jpg&lt;SEP&gt;./example_output/images/image_2.jpg&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;BERT-TAGGER+DL&quot;">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">BERT-TAGGER+DL is an enhanced version of BERT-Tagger with a dynamic loss component. Dice Loss is a loss function used in machine learning for optimizing the similarity between predicted and actual values.</data>
+  <data key="d2">./example_output/images/image_4.jpg&lt;SEP&gt;chunk-fbdf9d64766ea51ff2a2526d92ed5d67&lt;SEP&gt;chunk-4fd82d2b7d357c2a0f7e60544808d341&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;BERT-TAGGER+DSC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BERT-Tagger with a dynamic sampling component."</data>
+  <data key="d2">./example_output/images/image_4.jpg</data>
+</node>
+<node id="&quot;English Tweets Dataset&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">The English Tweets dataset is used for evaluating the performance of different models, including precision, recall, and F1 score on tweets. It serves as a benchmark for assessing the accuracy of models in handling social media text.</data>
+  <data key="d2">./example_output/images/image_4.jpg</data>
+</node>
+<node id="&quot;FASTTEXT+CNN+CRF&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">FASTTEXT+CNN+CRF is a sequence tagging model developed by Godin in 2019, designed to handle natural language processing tasks. It is compared with other models in terms of performance on various datasets, as detailed in the provided chunk text.</data>
+  <data key="d2">./example_output/images/image_4.jpg</data>
+</node>
+<node id="&quot;TABLE 4&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Table 4 contains experimental results for English POS datasets."&lt;SEP&gt;"Table 4 presents the experimental results for English POS datasets."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 3: Experimental results for Chinese POS datasets including CTB5, CTB6 and UD1.4.' The table compares the performance of different models on part-of-speech tagging tasks across three datasets: CTB5, CTB6, and UD1.4. The columns represent the datasets, while the rows represent various models and their corresponding metrics: Precision (Prec.), Recall (Rec.), and F1 score. The models listed are Joint-POS(Sig), Joint-POS(Ens), Lattice-LSTM, BERT-Tagger, BERT+FL, BERT+DL, and BERT+DSC. For example, on the CTB5 dataset, the BERT-Tagger model achieves a Precision of 95.86, Recall of 96.26, and an F1 score of 96.06. The BERT+DSC model performs the best with a Precision of 97.10, Recall of 98.75, and an F1 score of 97.92. The table also includes improvements over the baseline in parentheses, such as (+1.86) for the BERT+DSC model on the CTB5 dataset."</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;CTB5&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">CTB5 is a Chinese POS dataset used for evaluating the performance of models. It is used for evaluating the performance of different models in terms of precision, recall, and F1 score.</data>
+  <data key="d2">./example_output/images/image_3.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-120451d86e4c306945c9349c03341263&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f&lt;SEP&gt;chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;CTB6&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">CTB6 is a Chinese POS dataset used for evaluating the performance of models. It is used for evaluating the performance of different models in terms of precision, recall, and F1 score.</data>
+  <data key="d2">./example_output/images/image_3.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-120451d86e4c306945c9349c03341263&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f&lt;SEP&gt;chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;UD1.4&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">UD1.4 is a dataset used for evaluating the performance of models on English POS tasks. It is used for evaluating the performance of different models in terms of precision, recall, and F1 score.</data>
+  <data key="d2">./example_output/images/image_3.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-120451d86e4c306945c9349c03341263&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f&lt;SEP&gt;chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;JOINT-POS(SIG)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">JOINT-POS(SIG) is a model developed by Shao et al. in 2017 for part-of-speech tagging tasks, which jointly learns Chinese word segmentation and POS tagging. It was used as a baseline in experiments comparing different loss functions for POS tagging on Chinese datasets.</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;JOINT-POS(ENS)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">JOINT-POS(ENS) is another model developed by Shao et al. in 2017 for part-of-speech tagging tasks, similar to JOINT-POS(SIG), and was used as a baseline in experiments comparing different loss functions for POS tagging on English datasets.</data>
+  <data key="d2">./example_output/images/image_3.jpg</data>
+</node>
+<node id="&quot;LATTICE-LSTM&quot;">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Lattice-LSTM is a method that constructs a word-character lattice network, proposed by Zhang and Yang in 2018. It is a model developed by Zhang and Yang in 2018 for tagging tasks.</data>
+  <data key="d2">./example_output/images/image_3.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a line graph illustrating the derivatives of four different loss functions with respect to the probability of the ground-truth label, denoted as $\\bar{p}_i$. The x-axis represents the probability of the ground-truth label, ranging from 0 to 1. The y-axis represents the derivatives of the losses, ranging from -2 to 2. Four curves are plotted: \\nabla FL($\\gamma$=1) in blue, \\nabla DL($\\gamma$=1) in orange, \\nabla TL($\\beta$=0.5) in yellow, and \\nabla DSC in purple. The curve for \\nabla DSC approaches zero right after $\\bar{p}$ exceeds 0.5, while the other curves reach 0 only if the probability is exactly 1. This indicates that the derivative of DSC becomes negligible once the probability exceeds 0.5, whereas the other losses continue to push the probability towards 1."</data>
+  <data key="d2">./example_output/images/image_2.jpg</data>
+</node>
+<node id="&quot;FIGURE 1&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">Figure 1 is an illustration of the derivatives of the four losses mentioned in the text. Figure 1 provides an explanation from the perspective in derivative regarding the behavior of different losses.</data>
+  <data key="d2">./example_output/images/image_2.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;DICE LOSS (DL)&quot;">
+  <data key="d2">./example_output/images/image_2.jpg&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-6a0850cc02a524fb440d62de49112862</data>
+  <data key="d1">Dice loss is another loss compared in the paper, showing a huge gain on CTB5 but not on CTB6. The graph shows the derivative of Dice Loss with γ=1, represented by an orange line that starts at -1 and increases gradually as the probability of the ground-truth label approaches 1.</data>
+  <data key="d0">EVENT</data>
+</node>
+<node id="&quot;TVERSKY LOSS (TL)&quot;">
+  <data key="d2">./example_output/images/image_2.jpg&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+  <data key="d1">Tversky loss is a loss function derived from the Tversky index, used for optimizing the tradeoff between false-negatives and false-positives. The graph shows the derivative of Tversky Loss with β=0.5, represented by a yellow line that starts at 0 and increases gradually as the probability of the ground-truth label approaches 1.</data>
+  <data key="d0">EVENT</data>
+</node>
+<node id="&quot;DICE SIMILARITY COEFFICIENT (DSC)&quot;">
+  <data key="d2">./example_output/images/image_2.jpg&lt;SEP&gt;chunk-fbdf9d64766ea51ff2a2526d92ed5d67&lt;SEP&gt;chunk-4fd82d2b7d357c2a0f7e60544808d341&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+  <data key="d1">DSC refers to the Dice Similarity Coefficient, a measure used in machine learning for comparing the similarity of two sets. The graph shows the derivative of Dice Similarity Coefficient, represented by a purple line that starts at -1 and increases gradually as the probability of the ground-truth label approaches 1.</data>
+  <data key="d0">EVENT</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1: Number of positive and negative examples and their ratios for different data-imbalanced NLP tasks.' The table is structured with four main columns: Task, # neg, # pos, and ratio. Each row represents a different NLP task and contains the following values: \n- For CoNLL03 NER, the number of negative examples (# neg) is 170K, the number of positive examples (# pos) is 34K, and the ratio is 4.98. \n- For OntoNotes5.0 NER, the number of negative examples (# neg) is 1.96M, the number of positive examples (# pos) is 239K, and the ratio is 8.18. \n- For SQuAD 1.1 (Rajpurkar et al., 2016), the number of negative examples (# neg) is 10.3M, the number of positive examples (# pos) is 175K, and the ratio is 55.9. \n- For SQuAD 2.0 (Rajpurkar et al., 2018), the number of negative examples (# neg) is 15.4M, the number of positive examples (# pos) is 188K, and the ratio is 82.0. \n- For QUOREF (Dasigi et al., 2019), the number of negative examples (# neg) is 6.52M, the number of positive examples (# pos) is 38.6K, and the ratio is 169. \nThe table highlights the significant data imbalance in these NLP tasks, with the number of negative examples far exceeding the number of positive examples."</data>
+  <data key="d2">./example_output/images/image_1.jpg</data>
+</node>
+<node id="&quot;CONLL03&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">CoNLL03 is a dataset used in the paper for the named entity recognition task. A named entity recognition task with 170K negative and 34K positive samples, resulting in a ratio of 4.98. CoNLL03 is a dataset mentioned in the paper where the number of tokens with tagging class O is 5 times as many as those with entity labels.</data>
+  <data key="d2">./example_output/images/image_1.jpg&lt;SEP&gt;chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;ONTONOTES5.0&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">OntoNotes5.0 is a dataset used in the paper for the named entity recognition task. A named entity recognition task with 1.96M negative and 239K positive samples, resulting in a ratio of 8.18.</data>
+  <data key="d2">./example_output/images/image_1.jpg&lt;SEP&gt;chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;SQUAD 1.1&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">SQUAD 1.1 is a question-answering task that features a significant data imbalance, with 10.3 million negative samples and 175,000 positive samples, resulting in a negative-to-positive ratio of 55.9. This task is emblematic of the data imbalance issues in NLP, where the majority of examples are easy negatives, overwhelming the training process and creating a discrepancy between training objectives and evaluation metrics like the F1 score.</data>
+  <data key="d2">./example_output/images/image_1.jpg</data>
+</node>
+<node id="&quot;SQUAD 2.0&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">SQUAD 2.0 represents an updated version of the question-answering task, exacerbating the data imbalance challenge with 15.4 million negative samples and 188,000 positive samples, leading to a negative-to-positive ratio of 82.0. This event highlights the increasing difficulty in training models to accurately answer questions when faced with a vast number of easy-negative examples, which can dominate the training process and affect the model's ability to generalize.</data>
+  <data key="d2">./example_output/images/image_1.jpg</data>
+</node>
+<node id="&quot;QUOREF&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Quoref is a QA dataset that tests the coreferential reasoning capability of reading comprehension systems."&lt;SEP&gt;"Quoref is a dataset used for machine reading comprehension tasks."&lt;SEP&gt;"Quoref is a dataset used in the task of question answering, mentioned in the context of evaluating model performance."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-4fd82d2b7d357c2a0f7e60544808d341&lt;SEP&gt;chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;TABLE 1&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Table 1 in the paper provides the number of positive and negative examples and their ratios for different data-imbalanced NLP tasks."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;XIAOYA LI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Xiaoya Li is an author of the paper on Dice Loss for Data-imbalanced NLP Tasks."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;XIAOFEI SUN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Xiaofei Sun is an author of the paper on Dice Loss for Data-imbalanced NLP Tasks."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;YUXIAN MENG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Yuxian Meng is an author of the paper on Dice Loss for Data-imbalanced NLP Tasks."&lt;SEP&gt;"Yuxian Meng is an author who contributed to the paper on Dsreg: Using distant supervision as a regularizer in 2019."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e&lt;SEP&gt;chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;JUNJUN LIANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Junjun Liang is an author of the paper on Dice Loss for Data-imbalanced NLP Tasks."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;FEI WU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Fei Wu is an author of the paper on Dice Loss for Data-imbalanced NLP Tasks."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;JIWEI LI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Jiwei Li is an author of the paper on Dice Loss for Data-imbalanced NLP Tasks."&lt;SEP&gt;"Jiwei Li is an author("entity"</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e&lt;SEP&gt;chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;DEPARTMENT OF COMPUTER SCIENCE AND TECHNOLOGY, ZHEJIANG UNIVERSITY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Department of Computer Science and Technology at Zhejiang University is the affiliation of some of the authors of the paper."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;SHANNON.AI&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Shannon.AI is the organization affiliated with some of the authors of the paper on Dice Loss for Data-imbalanced NLP Tasks."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;MACHINE READING COMPREHENSION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Machine Reading Comprehension is an NLP task discussed in the paper, affected by data imbalance."&lt;SEP&gt;"Machine Reading Comprehension is an NLP task that predicts the answer span in a passage given a question."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;NAMED ENTITY RECOGNITION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Named Entity Recognition is an NLP task discussed in the paper, affected by data imbalance."&lt;SEP&gt;"Named Entity Recognition is an NLP task that detects the span and semantic category of entities within text."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;TVERSKY INDEX&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Tversky index extends the dice loss and is used as a basis for the proposed loss function in the paper, offering more flexibility."&lt;SEP&gt;"Tversky Index is mentioned as a method offering flexibility in controlling the tradeoff between false-negatives and false-positives."&lt;SEP&gt;"Tversky Index is related to the Dice Coefficient and is used in the context of measuring similarity between sets."&lt;SEP&gt;"Tversky index is an extension of the dice loss that uses a weight trading precision and recall, offering more flexibility."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67&lt;SEP&gt;chunk-946ca2125c9a2617892878b607022a25&lt;SEP&gt;chunk-6a0850cc02a524fb440d62de49112862&lt;SEP&gt;chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;F1 SCORE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"F1 score is a measure of a model's accuracy, specifically the weighted average of precision and recall."&lt;SEP&gt;"F1 score is a measure that is more concerned with positive examples and is used to evaluate the performance of models in the paper."&lt;SEP&gt;"F1 score is a metric used to evaluate machine reading comprehension tasks."&lt;SEP&gt;"F1 score is used as a performance metric, with the proposed loss function aiming to bridge the gap between training objectives and F1 score."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67&lt;SEP&gt;chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f&lt;SEP&gt;chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;SOTA RESULTS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"SOTA results refer to state-of-the-art results achieved by the proposed method in the paper on various datasets."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;NEGATIVE EXAMPLES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Negative examples are discussed in the paper as significantly outnumbering positive ones, causing a severe data imbalance issue."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;POSITIVE EXAMPLES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Positive examples are discussed in the context of data imbalance, where they are significantly outnumbered by negative examples."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;DATA IMBALANCE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Data imbalance is a central issue in the paper, referring to the problem of negative examples significantly outnumbering positive ones in NLP tasks."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;MACHINE READING COMPREHENSION (MRC)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Machine reading comprehension is an NLP task mentioned in the paper that faces the severe data imbalance issue."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;TAGGING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Tagging is an NLP task mentioned in the paper that faces the severe data imbalance issue."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;PART OF SPEECH TAGGING TASK&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Part of speech tagging is an NLP task where the authors achieved SOTA results on CTB5, CTB6, and UD1.4 datasets."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;MSRA&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"MSRA is a Chinese benchmark dataset for Named Entity Recognition, containing 3 entity types and collected from news domain."&lt;SEP&gt;"MSRA is a dataset used in the paper for the named entity recognition task."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263&lt;SEP&gt;chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;ONTONOTES4.0&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"OntoNotes4.0 is a dataset used in the paper for the named entity recognition task."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;RAJPURKAR ET AL., 2016&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Rajpurkar et al., 2016 is a reference cited in the paper in the context of machine reading comprehension tasks."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;NGUYEN ET AL., 2016&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Nguyen et al., 2016 is a reference cited in the paper in the context of machine reading comprehension tasks."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;RAJPURKAR ET AL., 2018&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Rajpurkar et al., 2018 is a reference cited in the paper in the context of machine reading comprehension tasks."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;KOˇCISK\`Y ET AL., 2018&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Koˇcisk\`y et al., 2018 is a reference cited in the paper in the context of machine reading comprehension tasks."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;DASIGI ET AL., 2019&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Dasigi et al., 2019 is a reference cited in the paper in the context of machine reading comprehension tasks."</data>
+  <data key="d2">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+</node>
+<node id="&quot;IMPORTANCE SAMPLING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Importance sampling is a method that assigns weights to different samples to change the data distribution."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;ADABOOST&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"AdaBoost is a boosting algorithm that selects harder examples to train subsequent classifiers."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;HARD EXAMPLE MINING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Hard example mining is a technique that downsamples the majority class and exploits the most difficult examples."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;OVERSAMPLING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Oversampling is a method used to balance the data distribution."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;SELF-PACED LEARNING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Self-paced learning is a method where example weights are obtained through optimizing the weighted training loss, encouraging learning easier examples first."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;IOU-BALANCED SAMPLING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"IoU-balanced sampling is a method proposed to alleviate the class imbalance issue in object detection."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;GENERALIZED DICE LOSS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Generalized Dice Loss is used as the training objective for unbalanced tasks, with class re-balancing properties."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;BATCH SOFT DICE LOSS FUNCTION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Batch soft Dice loss function is used to train CNN networks for segmentation tasks."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;KAHN AND MARSHALL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Kahn and Marshall are researchers who introduced the concept of importance sampling in 1953."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;KANDURI ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Kanduri et al. are researchers who contributed to the understanding of boosting algorithms like AdaBoost."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;MALISIEWICZ ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Malisiewicz et al. are researchers known for their work on hard example mining."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;CHEN ET AL. 2010&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Chen et al. 2010 are researchers who contributed to the field of oversampling to balance data distribution."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;CHAWLA ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Chawla et al. are researchers who have worked on oversampling techniques for data distribution balance."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;LIN ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Lin et al. are researchers who proposed the focal loss function for object detection in vision."&lt;SEP&gt;"Lin et al. are the researchers who introduced the concept of focal loss in 2017."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;KUMAR ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Kumar et al. are researchers who have worked on self-paced learning."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;CHANG ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Chang et al. are researchers who have worked on adjusting the weights of training examples based on training loss."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;KATHAROPOULOS AND FLEURET&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Katharopoulos and Fleuret are researchers who have contributed to the field of adjusting training example weights."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;JIANG ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Jiang et al. are researchers who proposed learning a separate network to predict sample weights."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;FAN ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Fan et al. are researchers who also proposed learning a separate network to predict sample weights."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;LI ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Li et al. are researchers who have studied the background-object label imbalance issue in object detection."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;GIRSHICK&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Girshick is a researcher who has contributed to the field of object detection, particularly with hard negative mining."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;HE ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"He et al. are researchers who have worked on object detection and the background-object label imbalance issue."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;GIRSHICK ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Girshick et al. are researchers known for their work on hard negative mining in object detection."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;REN ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ren et al. are researchers who have contributed to the field of object detection."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;PANG ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Pang et al. are researchers who proposed the IoU-balanced sampling method."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;CHEN ET AL. 2019&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Chen et al. 2019 are researchers who designed a ranking model to replace the conventional classification task."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;SUDRE ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Sudre et al. are researchers who addressed the severe class imbalance issue for image segmentation tasks."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;SHEN ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Shen et al. are researchers who investigated the influence of Dice-based loss for multi-class organ segmentation."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;KODYM ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Kodym et al. are researchers who proposed using the batch soft Dice loss function for training CNN networks."</data>
+  <data key="d2">chunk-6a0850cc02a524fb440d62de49112862</data>
+</node>
+<node id="&quot;CROSS ENTROPY LOSS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Cross Entropy Loss is a method used to calculate the loss in classification problems, where each instance contributes equally to the final objective."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;SØRENSEN–DICE COEFFICIENT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Sørensen–Dice Coefficient, or DSC, is an F1- oriented statistic used to gauge the similarity of two sets, particularly in the context of boolean data."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;MILLETARI ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Milletari et al. are referenced for proposing a change in the denominator of the Dice Coefficient to the square form for faster convergence."&lt;SEP&gt;"Milletari et al. are researchers who proposed a change in the denominator of the dice loss function for faster convergence."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;VALVERDE ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Valverde et al. are cited in the context of discussing the challenges of selecting appropriate weighting factors for different classes in classification tasks."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;$X_{I}$&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"$x_{i}$ represents an instance in the training set, associated with a binary label and contributes to the calculation of Cross Entropy Loss and Dice Coefficient."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;$Y_{I}$&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"$y_{i}$ represents the golden binary label denoting the ground-truth class that instance $x_{i}$ belongs to."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;$P_{I}$&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"$p_{i}$ represents the predicted probabilities of the two classes for instance $x_{i}$."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;$\ALPHA_{I}$&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"$\alpha_{i}$ is the weighting factor associated with instance $x_{i}$, used to adjust the Cross Entropy Loss equation."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;$N_{T}$&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"$n_{t}$ is the number of samples with class $t$, used in the calculation of the weighting factor $\alpha$."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;$N$&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"$n$ is the total number of samples in the training set, used in the calculation of the weighting factor $\alpha$."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;$K$&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"$K$ is a hyperparameter used in the calculation of the weighting factor $\alpha$."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;$A$&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"$A$ represents the set containing all positive examples predicted by a specific model."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;$B$&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"$B$ represents the set of all golden positive examples in the dataset."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;TP&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"TP stands for True Positive, used in the calculation of the Dice Coefficient."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;FP&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"FP stands for False Positive, used in the calculation of the Dice Coefficient."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;FN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"FN stands for False Negative, used in the calculation of the Dice Coefficient."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25</data>
+</node>
+<node id="&quot;$\GAMMA$&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"$\gamma$ is a smoothing factor added to the Dice Coefficient formula for handling negative examples."&lt;SEP&gt;"$\gamma$ is a smoothing factor used in the dice loss function to prevent division by zero."</data>
+  <data key="d2">chunk-946ca2125c9a2617892878b607022a25&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;TVERSKY INDEX (TI)&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Tversky index is a measure that extends the dice coefficient to a more general case, offering flexibility in controlling the tradeoff between false-negatives and false-positives."</data>
+  <data key="d2">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;EQ.5&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Eq.5 refers to a specific equation in the text, which is a soft form of the F1 score using a continuous probability p."</data>
+  <data key="d2">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;EQ.11&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Eq.11 refers to a specific equation in the text, which is the original form of the Dice Similarity Coefficient."</data>
+  <data key="d2">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;EQ.12&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Eq.12 refers to a specific equation in the text, which is an adaptive variant of the Dice Similarity Coefficient."</data>
+  <data key="d2">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;TABLE 2&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Table 2 summarizes all the aforementioned losses discussed in the text."&lt;SEP&gt;"Table 2 summarizes all the aforementioned losses in the context of the paper's experiments."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;$\MATHBB{I}(P_{I1}&gt;0.5)$&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"$\mathbb{I}(p_{i1}&gt;0.5)$ is an indicator function used in the computation of the F1 score, where it equals 1 if $p_{i1}$ is greater than 0.5 and 0 otherwise."</data>
+  <data key="d2">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;$P_{I1}$&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"$p_{i1}$ represents the predicted probability of an example being positive in the context of the text."</data>
+  <data key="d2">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;$Y_{I1}$&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"$y_{i1}$ represents the actual label of an example being positive in the context of the text."</data>
+  <data key="d2">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;$\ALPHA$&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"$\alpha$ is a hyperparameter in Tversky Index that controls the tradeoff between false-negatives and false-positives."&lt;SEP&gt;"$\alpha$ is a parameter in the Tversky index that controls the tradeoff between false-negatives and false-positives."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;$\BETA$&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"$\beta$ is a hyperparameter in Tversky Index, set to $1-\alpha$, and controls the tradeoff between false-negatives and false-positives."&lt;SEP&gt;"$\beta$ is a parameter in the Tversky index that controls the tradeoff between false-negatives and false-positives."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+</node>
+<node id="&quot;RITTER ET AL. (2011)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ritter et al. proposed an English dataset used for part-of-speech tagging experiments."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;CHINESE TREEBANK (XUE ET AL., 2005)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Chinese Treebank is a dataset used for POS tagging experiments, proposed by Xue et al. in 2005."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;DSC LOSS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"DSC loss is the proposed method in the paper that outperforms baseline results in POS tagging experiments."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;CONLL2003 (SANG AND MEULDER, 2003)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"CoNLL2003 is a dataset used for named entity recognition experiments, proposed by Sang and Meulder in 2003."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;LI ET AL. (2019)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Li et al. proposed the current state-of-the-art model used as the backbone for NER experiments in 2019."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;ELMO (PETERS ET AL., 2018)&quot;&lt;|(&quot;ENTITY&quot;">
+  <data key="d0">"JOINT-POS"</data>
+  <data key="d1">"organization"</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;GLYCE-BERT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Glyce-BERT combines Chinese glyph information with BERT pretraining, proposed by Wu et al. in 2019."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;SQUAD V2.0&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"SQuAD v2.0 is a dataset used for machine reading comprehension tasks."&lt;SEP&gt;"SQuAD v2.0 is an updated version of the SQuAD dataset, also used for question answering task evaluation."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2&lt;SEP&gt;chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;SEO ET AL. (2016)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Seo et al. proposed a standard protocol for machine reading comprehension tasks in 2016."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;RAJPURKAR ET AL. (2016, 2018)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Rajpurkar et al. proposed the SQuAD datasets for machine reading comprehension tasks in 2016 and 2018."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;DASIGI ET AL. (2019)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Dasigi et al. proposed the Quoref dataset for machine reading comprehension tasks in 2019."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;EXTRACT MATCH (EM)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Extract Match is a metric used to evaluate machine reading comprehension tasks."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;PART-OF-SPEECH TAGGING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Part-of-Speech Tagging is an NLP task that assigns part-of-speech labels to each word in a text."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;PARAPHRASE IDENTIFICATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Paraphrase Identification is an NLP task that identifies paraphrases within text."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;SOTA PERFORMANCES&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"SOTA performances refer to the state-of-the-art results achieved by the proposed method on various datasets."</data>
+  <data key="d2">chunk-16c9562e4fc9927ad1d945506d8bd2d2</data>
+</node>
+<node id="&quot;SEO ET AL.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Seo et al. is a research group that established standard protocols for predicting the start and end indexes of answers."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;PI TASK&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"PI task stands for paraphrase identification, a task aimed at determining if two sentences convey the same meaning."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;MRPC&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"MRPC is a corpus of sentence pairs with human annotations indicating whether the pairs are semantically equivalent."&lt;SEP&gt;"MRPC is a dataset used for paraphrase identification tasks, consisting of sentence pairs to evaluate model performance."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341&lt;SEP&gt;chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;QQP&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"QQP is a collection of question pairs from Quora, used to determine if the questions are semantically equivalent."&lt;SEP&gt;"QQP is a dataset used for paraphrase identification, containing sentence pairs to assess model ability to determine equivalent meanings."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341&lt;SEP&gt;chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;DOLAN AND BROCKETT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Dolan and Brockett are the creators of the MRPC dataset, used for evaluating paraphrase identification models."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;DASIGI ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Dasigi et al. are the creators of the Quoref dataset, used for evaluating question answering models."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;RAJPURKAR ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Rajpurkar et al. are associated with the development of the SQuAD datasets, used for question answering tasks."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;YANG ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Yang et al. are the researchers responsible for proposing the XLNet model, which is used in various natural language processing tasks."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;YU ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Yu et al. are the developers of the QANet model, which is based on convolutions and self-attentions for question answering."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;DEVLIN ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Devlin et al. are the creators of the BERT model, used for scoring candidate spans in question answering tasks."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;TABLE 7&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Table 7 displays the results for the PI task, highlighting performance improvements in F1 score."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;DBPEDIA&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"DBpedia is a database containing information extracted from Wikipedia, used for entity replacement in data augmentation."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;SPACY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Spacy is a tool used for retrieving entity mentions and replacing them with new ones by linking to corresponding entities in DBpedia."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;MLE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"MLE stands for Maximum Likelihood Estimation, an objective used in training models, particularly in the context of data augmentation."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;FL&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"FL likely refers to a specific method or model used in the experiments, though not explicitly defined in the text."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;ORIGINAL TRAINING SET&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The original training set with 363,871 examples, used for constructing synthetic training sets with different positive-negative ratios."</data>
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+</node>
+<node id="&quot;STANFORD SENTIMENT TREEBANK&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Stanford Sentiment Treebank is a dataset used for sentiment classification tasks, including SST-2 and SST-5."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;CHINESE ONTONOTES4.0&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Chinese OntoNotes4.0 is a dataset used for experiments to test the effect of hyperparameters in Tversky Index."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;QUOREF MRC&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"QuoRef MRC is an English dataset used for experiments to test the effect of hyperparameters in Tversky Index."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;NATIONAL NATURAL SCIENCE FOUNDATION OF CHINA&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The National Natural Science Foundation of China supports the work mentioned in the paper with grant numbers provided."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;TABLE 10&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Table 10 is mentioned to show the effect of hyperparameters in Tversky Index."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;B E R T_{L A R G E}&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"B E R T_{L a r g e} is mentioned as a model fine-tuned with different training objectives for sentiment classification tasks."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;CROSS-ENTROPY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Cross-entropy is discussed as an accuracy-oriented objective, compared to the proposed losses which are soft versions of F1 score."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;TI&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"TI is an abbreviation for Tversky Index, which is discussed in the context of controlling the tradeoff between false-negatives and false-positives."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;ACL 2018&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"ACL 2018 is the event where the paper by Bernd Bohnet et al. was presented, discussing morphosyntactic tagging with a meta-bilstm model."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;NIPS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"NIPS is the event where the paper by Haw-Shiuan Chang et al. was presented, discussing training more accurate neural networks by emphasizing high variance samples."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;J. ARTIF. INTELL. RES.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"J. Artif. Intell. Res. is the journal where the paper by N. V. Chawla et al. was published, discussing Smote: Synthetic minority over-sampling technique."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;ARXIV&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"arXiv is a repository of electronic preprints (known as e-prints) approved for publication after moderation, but are not peer-reviewed."&lt;SEP&gt;"arXiv is the platform where the preprint by Danqi Chen et al. was posted, discussing reading Wikipedia to answer open-domain questions."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67&lt;SEP&gt;chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"IEEE Conference on Computer Vision and Pattern Recognition is the event where the paper by Kean Chen et al. was presented, discussing accurate one-stage object detection with ap-loss."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;IEEE TRANSACTIONS ON NEURAL NETWORKS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"IEEE Transactions on Neural Networks is the journal where the paper by Shijuan Chen et al. was published, discussing Ramoboost: Ranked minority oversampling in boosting."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;PROCEEDINGS OF THE 2018 CONFERENCE ON EMPIRICAL METHODS IN NATURAL LANGUAGE PROCESSING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing is the event where the paper by Kevin Clark et al. was presented, discussing semi-supervised sequence modeling with cross-view training."&lt;SEP&gt;"The 2018 Conference on Empirical Methods in Natural Language Processing is an academic event where research papers are presented, including the paper on cross-view training modeling."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67&lt;SEP&gt;chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;ARXIV PREPRINT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"arXiv preprint is the platform where the paper by Pradeep Dasigi et al. was posted, discussing Quoref: A reading comprehension dataset with questions requiring coreferential reasoning."</data>
+  <data key="d2">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+</node>
+<node id="&quot;PRADEEP DASIGI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Pradeep Dasigi is an author of the paper 'Quoref: A reading comprehension dataset with questions requiring coreferential reasoning.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;NELSON F LIU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Nelson F Liu is an author of the paper 'Quoref: A reading comprehension dataset with questions requiring coreferential reasoning.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;ANA MARASOVIC&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ana Marasovic is an author of the paper 'Quoref: A reading comprehension dataset with questions requiring coreferential reasoning.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;NOAH A SMITH&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Noah A Smith is an author of the paper 'Quoref: A reading comprehension dataset with questions requiring coreferential reasoning.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;MATT GARDNER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Matt Gardner is an author of the paper 'Quoref: A reading comprehension dataset with questions requiring coreferential reasoning.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;ARXIV:1908.05803&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"arXiv:1908.05803 is the identifier for the preprint of the paper 'Quoref: A reading comprehension dataset with questions requiring coreferential reasoning.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;JACOB DEVLIN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Jacob Devlin is an author of the paper 'Bert: Pre-training of deep bidirectional transformers for language understanding.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;MING-WEI CHANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ming-Wei Chang is an author of the paper 'Bert: Pre-training of deep bidirectional transformers for language understanding.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;KENTON LEE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Kenton Lee is an author of the paper 'Bert: Pre-training of deep bidirectional transformers for language understanding.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;KRISTINA TOUTANOVA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Kristina Toutanova is an author of the paper 'Bert: Pre-training of deep bidirectional transformers for language understanding.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;ARXIV:1810.04805&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"arXiv:1810.04805 is the identifier for the preprint of the paper 'Bert: Pre-training of deep bidirectional transformers for language understanding.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;LEE R DICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Lee R Dice is the author of the paper 'Measures of the amount of ecologic association between species.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;ECOLOGY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Ecology is the journal in which Lee R Dice's paper 'Measures of the amount of ecologic association between species' was published."</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;WILLIAM B. DOLAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"William B. Dolan is an author of the paper 'Automatically constructing a corpus of sentential paraphrases.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;CHRIS BROCKETT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Chris Brockett is an author of the paper 'Automatically constructing a corpus of sentential paraphrases.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;PROCEEDINGS OF THE THIRD INTERNATIONAL WORKSHOP ON PARAPHRASING (IWP2005)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Third International Workshop on Paraphrasing (IWP2005) is the event where the paper 'Automatically constructing a corpus of sentential paraphrases' was presented."</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;YANG FAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Yang Fan is an author of the paper 'Learning to teach.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;FEI TIAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Fei Tian is an author of the paper 'Learning to("entity"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;XIUPING LI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Xiuping Li is an author of the paper 'Learning to teach.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;TIE-YAN LIU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Tie-Yan Liu is an author of the paper 'Learning to teach.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;ARXIV, ABS/1805.03643&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"ArXiv, abs/1805.03643 is the identifier for the preprint of the paper 'Learning to teach.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;ROSS B. GIRSHICK&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ross B. Girshick is an author of the paper 'Fast r-cnn.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;2015 IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION (ICCV)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The 2015 IEEE International Conference on Computer Vision (ICCV) is the event where the paper 'Fast r-cnn' was presented."</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;JEFF DONAHUE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Jeff Donahue is an author of the paper 'Rich feature hierarchies for accurate object detection and semantic segmentation.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;TREVOR DARRELL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Trevor Darrell is an author of the paper 'Rich feature hierarchies for accurate object detection and semantic segmentation.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;JITENDRA MALIK&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Jitendra Malik is an author of the paper 'Rich feature hierarchies for accurate object detection and semantic segmentation.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;2014 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The 2014 IEEE Conference on Computer Vision and Pattern Recognition is the event where the paper 'Rich feature hierarchies for accurate object detection and semantic segmentation' was presented."</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;FR´EDERIC GODIN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Fr´ederic Godin is the author of the Ph.D. thesis 'Improving and Interpreting Neural Networks for Word-Level Prediction Tasks in Natural Language Processing.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;GHENT UNIVERSITY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Ghent University is the institution where Fr´ederic Godin defended the Ph.D. thesis 'Improving and Interpreting Neural Networks for Word-Level Prediction Tasks in Natural Language Processing.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;KAIMING HE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Kaiming He is an author of the paper 'Deep residual learning for image recognition.'"&lt;SEP&gt;"Kaiming He is an author who contributed to the paper on focal loss for dense object detection in 2017."</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2&lt;SEP&gt;chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;XIANGYU ZHANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Xiangyu Zhang is an author of the paper 'Deep residual learning for image recognition.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;SHAOQING REN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Shaoqing Ren is an author of the paper 'Deep residual learning for image recognition.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;JIAN SUN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Jian Sun is an author of the paper 'Deep residual learning for image recognition.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;2016 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) is the event where the paper 'Deep residual learning for image recognition' was presented."</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;LU JIANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Lu Jiang is an author of the paper 'Mentornet: Learning data-driven curriculum for very deep neural networks on corrupted labels.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;ZHENGYUAN ZHOU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Zhengyuan Zhou is an author of the paper 'Mentornet: Learning data-driven curriculum for very deep neural networks on corrupted labels.'"</data>
+  <data key="d2">chunk-caba65e57168f6a5e808f15623e5cda2</data>
+</node>
+<node id="&quot;CORR&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"CoRR is an organization that appears to be a repository or platform for academic papers, as indicated by the reference 'abs/1910.11476'."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;TSUNG-YI LIN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Tsung-Yi Lin is an author who contributed to the paper on focal loss for dense object detection in 2017."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;PRIYA GOYAL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Priya Goyal is an author who contributed to the paper on focal loss for dense object detection in 2017."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;ROSS GIRSHICK&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ross Girshick is an author who contributed to the paper on focal loss for dense object detection in 2017."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;PIOTR DOLLÁR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Piotr Dollár is an author who contributed to the paper on focal loss for dense object detection in 2017."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;XUEZHE MA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Xuezhe Ma is an author who contributed to the paper on end-to-end sequence labeling via bi-directional LSTM-CRF in 2016."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;EDUARD HOVY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Eduard Hovy is an author who contributed to the paper on end-to-end sequence labeling via bi-directional LSTM-CRF in 2016."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;TOMASZ MALISIEWICZ&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Tomasz Malisiewicz is an author who contributed to the paper on ensemble of exemplar-SVMs for object detection in 2011."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;ABHINAV GUPTA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Abhinav Gupta is an author who contributed to the paper on ensemble of exemplar-SVMs for object detection in 2011."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;ALEXEI A. EFROS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Alexei A. Efros is an author who contributed to the paper on ensemble of exemplar-SVMs for object detection in 2011."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;BRYAN MCCANN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Bryan McCann is an author who contributed to the paper on the natural language decathlon: Multitask learning as question answering in 2018."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;NITISH SHIRISH KESKAR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Nitish Shirish Keskar is an author who contributed to the paper on the natural language decathlon: Multitask learning as question answering in 2018."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;CAIMING XIONG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Caiming Xiong is an author who contributed to the paper on the natural language decathlon: Multitask learning as question answering in 2018."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;RICHARD SOCHER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Richard Socher is an author who contributed to the paper on the natural language decathlon: Multitask learning as question answering in 2018."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;MUYU LI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Muyu Li is an author who contributed to the paper on Dsreg: Using distant supervision as a regularizer in 2019."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;WEI WU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Wei Wu is an author who contributed to the paper on Dsreg: Using distant supervision as a regularizer in 2019."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;NASSIR NAVAB&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Nassir Navab is an author who contributed to the paper on V-net: Fully convolutional neural networks for volumetric medical image segmentation in 2016."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;SEYED-AHMAD AHMADI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Seyed-Ahmad Ahmadi is an author who contributed to the paper on V-net: Fully convolutional neural networks for volumetric medical image segmentation in 2016."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;DAVID NADEAU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"David Nadeau is an author who contributed to the survey of named entity recognition and classification in 2007."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;SATOSHI SEKINE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Satoshi Sekine is an author who contributed to the survey of named entity recognition and classification in 2007."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;TRI NGUYEN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Tri Nguyen is an author who contributed to the paper on Ms MARCO: A human generated machine reading comprehension dataset in 2016."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;MIR ROSENBERG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mir Rosenberg is an author who contributed to the paper on Ms MARCO: A human generated machine reading comprehension dataset in 2016."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;XIA SONG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Xia Song is an author who contributed to the paper on Ms MARCO: A human generated machine reading comprehension dataset in 2016."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;JIANFENG GAO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Jianfeng Gao is an author of a paper on Reasonet: Learning to stop reading in machine comprehension."&lt;SEP&gt;"Jianfeng Gao is an author who contributed to the paper on Ms MARCO: A human generated machine reading comprehension dataset in 2016."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15&lt;SEP&gt;chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;SAURABH TIWARY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Saurabh Tiwary is an author who contributed to the paper on Ms MARCO: A human generated machine reading comprehension dataset in 2016."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;RANGAN MAJUMDER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Rangan Majumder is an author who contributed to the paper on Ms MARCO: A human generated machine reading comprehension dataset in 2016."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;LI DENG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Li Deng is an author who contributed to the paper on Ms MARCO: A human generated machine reading comprehension dataset in 2016."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;JIANGMIAO PANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Jiangmiao Pang is an author who contributed to the paper on Libra R-CNN: Towards balanced learning for object detection in 2019."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;KAI CHEN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Kai Chen is an author who contributed to the paper on Libra R-CNN: Towards balanced learning for object detection in 2019."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;JIANPING SHI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Jianping Shi is an author who contributed to the paper on Libra R-CNN: Towards balanced learning for object detection in 2019."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;HUAJUN FENG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Huajun Feng is an author who contributed to the paper on Libra R-CNN: Towards balanced learning for object detection in 2019."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;WANLI OUYANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Wanli Ouyang is an author who contributed to the paper on Libra R-CNN: Towards balanced learning for object detection in 2019."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;DAHUA LIN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Dahua Lin is an author who contributed to the paper on Libra R-CNN: Towards balanced learning for object detection in 2019."</data>
+  <data key="d2">chunk-75fd636aa21a9791789b477381e6f72e</data>
+</node>
+<node id="&quot;EDMONTON&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Edmonton is a city in Canada where an event took place."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;CANADA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Canada is the country where Edmonton is located and where an event took place."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;MINJOON SEO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Minjoon Seo is an author of a paper on bidirectional attention flow for machine comprehension."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;ANIRUDDHA KEMBHAVI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Aniruddha Kembhavi is an author of a paper on bidirectional attention flow for machine comprehension."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;ALI FARHADI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ali Farhadi is an author of a paper on bidirectional attention flow for machine comprehension."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;HANNANEH HAJISHIRZI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Hannaneh Hajishirzi is an author of a paper on bidirectional attention flow for machine comprehension."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;REUBEN R. SHAMIR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Reuben R. Shamir is an author of a paper on the continuous dice coefficient for evaluating probabilistic segmentations."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;YUVAL DUCHIN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Yuval Duchin is an author of a paper on the continuous dice coefficient for evaluating probabilistic segmentations."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;JINYOUNG KIM&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Jinyoung Kim is an author of a paper on the continuous dice coefficient for evaluating probabilistic segmentations."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;GUILLERMO SAPIRO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Guillermo Sapiro is an author of a paper on the continuous dice coefficient for evaluating probabilistic segmentations."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;NOAM HAREL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Noam Harel is an author of a paper on the continuous dice coefficient for evaluating probabilistic segmentations."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;YAN SHAO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Yan Shao is an author of a paper on character-based joint segmentation and POS tagging for Chinese using bidirectional RNN-CRF."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;CHRISTIAN HARDMEIER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Christian Hardmeier is an author of a paper on character-based joint segmentation and POS tagging for Chinese using bidirectional RNN-CRF."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;JO¨RG TIEDEMANN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Jo¨rg Tiedemann is an author of a paper on character-based joint segmentation and POS tagging for Chinese using bidirectional RNN-CRF."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;JOAKIM NIVRE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Joakim Nivre is an author of a paper on character-based joint segmentation and POS tagging for Chinese using bidirectional RNN-CRF."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;CHEN SHEN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Chen Shen is an author of a paper on the influence of dice loss function in multi-class organ segmentation of abdominal CT using 3D fully convolutional networks."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;HOLGER R. ROTH&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Holger R. Roth is an author of a paper on the influence of dice loss function in multi-class organ segmentation of abdominal CT using 3D fully convolutional networks."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;HIROYUKI ODA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Hiroyuki Oda is an author of a paper on the influence of dice loss function in multi-class organ segmentation of abdominal CT using 3D fully convolutional networks."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;MASAHIRO ODA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Masahiro Oda is an author of a paper on the influence of dice loss function in multi-class organ segmentation of abdominal CT using 3D fully convolutional networks."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;YUICHIRO HAYASHI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Yuichiro Hayashi is an author of a paper("entity"</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;KENSAKU MORI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Kensaku Mori is an author of a paper on the influence of dice loss function in multi-class organ segmentation of abdominal CT using 3D fully convolutional networks."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;YELONG SHEN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Yelong Shen is an author of a paper on Reasonet: Learning to stop reading in machine comprehension."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;PO-SEN HUANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Po-Sen Huang is an author of a paper on Reasonet: Learning to stop reading in machine comprehension."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;WEIZHU CHEN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Weizhu Chen is an author of a paper on Reasonet: Learning to stop reading in machine comprehension."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;TH A SORENSEN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Th A Sorensen is an author of a paper on a method of establishing groups of equal amplitude in plant sociology based on similarity of species content."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;CAROLE H. SUDRE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Carole H. Sudre is an author of a paper on Generalised dice overlap as a deep learning loss function for highly unbalanced segmentations."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;WENQI LI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Wenqi Li is an author of a paper on Generalised dice overlap as a deep learning loss function for highly unbalanced segmentations."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;TOM VERCAUTEREN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Tom Vercauteren is an author of a paper on Generalised dice overlap as a deep learning loss function for highly unbalanced segmentations."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;SE´BASTIEN OURSELIN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Se´bastien Ourselin is an author of a paper on Generalised dice overlap as a deep learning loss function for highly unbalanced segmentations."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;M. JORGE CARDOSO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"M. Jorge Cardoso is an author of a paper on Generalised dice overlap as a deep learning loss function for highly unbalanced segmentations."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;AMOS TVERSKY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Amos Tversky is an author of a paper on Features of similarity."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;SERGI VALVERDE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Sergi Valverde is an author of a paper on Improving automated multiple sclerosis lesion segmentation with a cascaded 3D convolutional neural network approach."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;MARIANO CABEZAS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mariano Cabezas is an author of a paper on Improving automated multiple sclerosis lesion segmentation with a cascaded 3D convolutional neural network approach."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;ELOY ROURA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Eloy Roura is an author of a paper on Improving automated multiple sclerosis lesion segmentation with a cascaded 3D convolutional neural network approach."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;SANDRA GONZA´LEZ-VILLA´&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Sandra Gonza´lez-Villa´ is an author of a paper on Improving automated multiple sclerosis lesion segmentation with a cascaded 3D convolutional neural network approach."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;DEBORAH PARETO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Deborah Pareto is an author of a paper on Improving automated multiple sclerosis lesion segmentation with a cascaded 3D convolutional neural network approach."</data>
+  <data key="d2">chunk-ce14f255385f9959a3af36876d600b15</data>
+</node>
+<node id="&quot;CHINESE TREEBANK&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Chinese Treebank is a collection of datasets used for part-of-speech tagging and parsing in Chinese language processing."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;UNIVERSAL DEPENDENCIES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Universal Dependencies is a framework for consistent annotation of grammar across different human languages."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;ONTONOTES&quot;">
+  <data key="d0">"DATASET"</data>
+  <data key="d1">"OntoNotes is a dataset used for Named Entity Recognition, consisting of texts from various sources and containing multiple entity types."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;CONLL2003&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"CoNLL2003 is an English dataset with 4 entity types used for Named Entity Recognition."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;SQUAD&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"SQuAD is a question-answering benchmark, with SQuAD v1.1 and SQuAD v2.0 being the most widely used."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;XINHUA&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Xinhua is a news agency and a source of articles in the CTB5 dataset."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;INFORMATION SERVICES DEPARTMENT OF HKSAR&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Information Services Department of HKSAR is a source of articles in the CTB5 dataset."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;SINORAMA MAGAZINE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Sinorama Magazine is a source of articles in the CTB5 and CTB6 datasets."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;WU ET AL.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Wu et al. is a reference to a group of researchers who used the same data split as mentioned in the text."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;MA AND HOVY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ma and Hovy are researchers whose data processing protocols were followed for the CoNLL2003 dataset."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;QUORA&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Quora is a community question-answering website and the source of the QQP dataset."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;SQUADV1.1/V2.0&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"SQuADv1.1/v2.0 refers to the two versions of the SQuAD question-answering benchmark."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;QUEREF&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Queref is the source of the QA dataset used for machine reading comprehension."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;MA AND HOVY, 2016&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Ma and Hovy, 2016 is the publication event of the research paper by Ma and Hovy, which provided data processing protocols."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;CONLL2012&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"CoNLL2012 is the shared task event that provided the standard train/dev/test split for the OntoNotes5.0 dataset."</data>
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+</node>
+<node id="&quot;F1&quot;">
+  <data key="d2">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+  <data key="d1">"The F1 score is used to measure the performance of models, and Eq.5 is a soft form of F1 using a continuous probability p."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;POS DATASETS&quot;">
+  <data key="d2">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+  <data key="d1">"CTB5 is one of the Chinese POS datasets included in the experimental results."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SQU(&quot;ENTITY&quot;">
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+  <data key="d1">"event"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TABLE 6&quot;">
+  <data key="d2">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+  <data key="d1">"event"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;LATTICE LSTM&quot;">
+  <data key="d2">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d1">"arXiv is the platform where the preprint about lattice LSTM is published."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_11中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;BERT+CE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+CE是从image_11中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;BERT+DL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DL是从image_11中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;BERT+DSC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DSC是从image_11中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;SST-2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SST-2是从image_11中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;SST-5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SST-5是从image_11中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;TABLE 8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_11" is the image of "TABLE 8".</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;BERT+CE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"BERT's performance is detailed in Table 9, which compares different training objectives on sentiment classification tasks."</data>
+  <data key="d5">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;SST-2&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT+CE model was tested on the SST-2 dataset."</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;SST-5&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT+CE model was tested on the SST-5 dataset."</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;BERT+DL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT+DL demonstrates significant improvements over BERT in EM and F1 scores on SQuAD v1.1 and QuoRef."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;BERT+DSC&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"BERT+DSC achieves the highest EM and F1 scores among all BERT-based models on SQuAD v1.1 and QuoRef."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;IMAGE_10&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;ORIGINAL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The original performance of BERT is 91.3, which serves as the baseline for comparison with other variants and conditions."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;+POSITIVE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"When positive examples are added, BERT's performance increases to 92.27, showing an improvement over the original performance."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;+NEGATIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"When negative examples are added, BERT's performance decreases slightly to 90.08, indicating a minor degradation compared to the original performance."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;-NEGATIVE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"When negative examples are removed, BERT's performance drops to 89.73, showing a significant decrease compared to the original performance."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;+POSITIVE &amp; NEGATIVE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"When both positive and negative examples are added, BERT's performance peaks at 93.14, demonstrating the highest improvement over the original performance."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;BERT+FL&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"BERT+FL shows slight improvements over BERT in EM and F1 scores on SQuAD v1.1 and QuoRef."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;QANET&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT outperforms QANet in EM and F1 scores on SQuAD v1.1 and QuoRef."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;XLNet&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"XLNet surpasses BERT in EM and F1 scores on SQuAD v1.1 and v2.0."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;TABLE 6&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"BERT's performance is evaluated in Table 6 for the MRC task, showing significant improvements with the proposed DSC loss."</data>
+  <data key="d5">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;TABLE 7&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"BERT's performance is evaluated in Table 7 for the PI task, showing a performance boost with DSC as the training objective."</data>
+  <data key="d5">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;STANFORD SENTIMENT TREEBANK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT is fine-tuned and tested on the Stanford Sentiment Treebank datasets for sentiment classification tasks."</data>
+  <data key="d5">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;NATIONAL NATURAL SCIENCE FOUNDATION OF CHINA&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The National Natural Science Foundation of China supports the work involving BERT fine-tuning and experiments."</data>
+  <data key="d5">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+CE&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT (Devlin et al., 2018)是从image_9中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;SST-2&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT+DL model was tested on the SST-2 dataset."</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;SST-5&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT+DL model was tested on the SST-5 dataset."</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;IMAGE_10&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DL是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;ORIGINAL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT+DL enhances the original performance by 0.62 points, achieving a score of 91.92."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;+POSITIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Positive examples boost BERT+DL's performance to 92.87, indicating a strong positive impact."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;+NEGATIVE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Negative examples cause a minor decline in BERT+DL's performance, dropping to 90.22."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;-NEGATIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Eliminating negative examples improves BERT+DL's performance to 90.49."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;+POSITIVE &amp; NEGATIVE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Incorporating both types of examples results in the highest performance for BERT+DL at 93.52."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DL是从image_9中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DL是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DL是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;CTB5&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+DL was evaluated on CTB5."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;CTB6&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+DL was evaluated on CTB6."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DL&quot;" target="&quot;UD1.4&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+DL was evaluated on UD1.4."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;SST-2&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT+DSC model was tested on the SST-2 dataset."</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;SST-5&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT+DSC model was tested on the SST-5 dataset."</data>
+  <data key="d5">./example_output/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;IMAGE_10&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DSC是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;ORIGINAL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT+DSC outperforms the original BERT by 0.81 points, scoring 92.11."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;+POSITIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Positive examples further enhance BERT+DSC's performance to 92.92, showing a clear benefit."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;+NEGATIVE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Negative examples lead to a slight decrease in BERT+DSC's performance, reducing it to 90.78."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;-NEGATIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Removing negative examples improves BERT+DSC's performance to 90.80."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;+POSITIVE &amp; NEGATIVE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Combining positive and negative examples achieves the best performance for BERT+DSC at 93.63."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DSC是从image_9中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DSC是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DSC是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;CTB5&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+DSC was evaluated on CTB5."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;CTB6&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+DSC was evaluated on CTB6."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+DSC&quot;" target="&quot;UD1.4&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+DSC was evaluated on UD1.4."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE 8&quot;" target="&quot;IMAGE_10&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_10" is the image of "TABLE 8".</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;BERT+FL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+FL是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;ORIGINAL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"original是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;+POSITIVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"+ positive是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;+NEGATIVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"+ negative是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;-NEGATIVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"- negative是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;+POSITIVE &amp; NEGATIVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"+ positive &amp; negative是从image_10中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;ORIGINAL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT+FL improves the original performance by 0.56 points, bringing the score to 91.86."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;+POSITIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"With positive examples, BERT+FL's performance further improves to 92.64, showing a consistent trend of enhancement."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;+NEGATIVE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Adding negative examples results in a slight drop in performance for BERT+FL, reducing the score to 90.61."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;-NEGATIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Removing negative examples leads to a notable increase in BERT+FL's performance, reaching 90.79."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;+POSITIVE &amp; NEGATIVE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Combining both positive and negative examples yields the best performance for BERT+FL at 93.45."</data>
+  <data key="d5">./example_output/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+FL是从image_9中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+FL是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+FL是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;CTB5&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+FL was evaluated on CTB5."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;CTB6&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+FL was evaluated on CTB6."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;UD1.4&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT+FL was evaluated on UD1.4."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;DICE LOSS (DL)&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Dice loss and focal loss are both used to address the issue of easy-negative examples dominating training in imbalanced datasets."</data>
+  <data key="d5">chunk-6a0850cc02a524fb440d62de49112862</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+FL&quot;" target="&quot;SELF-PACED LEARNING&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Self-paced learning and focal loss both involve dynamic weight adjustment during training, but they have different focuses and methods."</data>
+  <data key="d5">chunk-6a0850cc02a524fb440d62de49112862</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ORIGINAL&quot;" target="&quot;MRC TASK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"SQuAD v1.1 is a dataset used to evaluate performance in the MRC task."</data>
+  <data key="d5">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;+POSITIVE&quot;" target="&quot;ORIGINAL TRAINING SET&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Positive augmentation is created by adding positive examples to the original training set to balance it."</data>
+  <data key="d5">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;XLNET (YANG ET AL., 2019)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet (Yang et al., 2019)是从image_9中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;XLNET+FL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet+FL是从image_9中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;XLNET+DL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet+DL是从image_9中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;XLNET+DSC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet+DSC是从image_9中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="Table 6: Experimental results for MRC task.">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_9" is the image of Table 6: Experimental results for MRC task..</data>
+  <data key="d5">./example_output/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;XLNET+FL&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet+FL是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;XLNET+FL&quot;" target="&quot;XLNet&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"XLNet+FL maintains similar performance to XLNet on SQuAD v1.1 and v2.0."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;XLNET+DL&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet+DL是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;XLNET+DL&quot;" target="&quot;XLNet&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"XLNet+DL shows slight improvements over XLNet in EM and F1 scores on SQuAD v1.1 and v2.0."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;XLNET+DSC&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet+DSC是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;XLNET+DSC&quot;" target="&quot;XLNet&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"XLNet+DSC achieves the highest EM and F1 scores among all XLNet-based models on SQuAD v1.1 and v2.0."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;QANET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"QANet是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;XLNet&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;MRC TASK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_8" is the image of "MRC TASK".</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;XLNet&quot;" target="&quot;TABLE 6&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"XLNet's performance is compared with the proposed method in Table 6 for the MRC task, where the proposed method outperforms XLNet."</data>
+  <data key="d5">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;XLNet&quot;" target="&quot;TABLE 7&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"XLNet's performance is evaluated in Table 7 for the PI task, also showing a performance boost with DSC as the training objective."</data>
+  <data key="d5">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MRC TASK&quot;" target="&quot;SEO ET AL.&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Seo et al. established standard protocols for the MRC task, influencing how answers are predicted in this task."</data>
+  <data key="d5">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;BERT-MRC+DSC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC+DSC是从image_7中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;CHINESE MSRA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chinese MSRA是从image_7中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;CHINESE ONTONOTES 4.0&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chinese OntoNotes 4.0是从image_7中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;TABLE 5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_7" is the image of "TABLE 5".</data>
+  <data key="d5">./example_output/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-MRC+DSC&quot;" target="&quot;CHINESE MSRA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The model is evaluated on this dataset and achieves the highest F1 score."</data>
+  <data key="d5">./example_output/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-MRC+DSC&quot;" target="&quot;CHINESE ONTONOTES 4.0&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The model is evaluated on this dataset and achieves the highest F1 score."</data>
+  <data key="d5">./example_output/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-MRC+DSC&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC+DSC是从image_6中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-MRC+DSC&quot;" target="&quot;ENGLISH ONTONOTES 5.0&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-MRC+DSC model was evaluated on the English OntoNotes 5.0 dataset."</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-MRC+DSC&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC+DSC是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-MRC+DSC&quot;" target="&quot;ENGLISH CONLL 2003&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT-MRC+DSC was evaluated in the English CoNLL 2003 event."</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE 5&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_5" is the image of "TABLE 5".</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;ENGLISH ONTONOTES 5.0&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"English OntoNotes 5.0是从image_6中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;CVT (CLARK ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CVT (Clark et al., 2018)是从image_6中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BERT-TAGGER (DEVLIN ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-Tagger (Devlin et al., 2018)是从image_6中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BERT-MRC (LI ET AL., 2019)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC (Li et al., 2019)是从image_6中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BERT-MRC+FL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC+FL是从image_6中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BERT-MRC+DL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC+DL是从image_6中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;TABLE 3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_6" is the image of "TABLE 3".</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH ONTONOTES 5.0&quot;" target="&quot;CVT (CLARK ET AL., 2018)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The CVT model was evaluated on the English OntoNotes 5.0 dataset."</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH ONTONOTES 5.0&quot;" target="&quot;BERT-TAGGER (DEVLIN ET AL., 2018)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger model was evaluated on the English OntoNotes 5.0 dataset."</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH ONTONOTES 5.0&quot;" target="&quot;BERT-MRC (LI ET AL., 2019)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-MRC model was evaluated on the English OntoNotes 5.0 dataset."</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH ONTONOTES 5.0&quot;" target="&quot;BERT-MRC+FL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-MRC+FL model was evaluated on the English OntoNotes 5.0 dataset."</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH ONTONOTES 5.0&quot;" target="&quot;BERT-MRC+DL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-MRC+DL model was evaluated on the English OntoNotes 5.0 dataset."</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER (DEVLIN ET AL., 2018)&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-Tagger是从image_4中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER (DEVLIN ET AL., 2018)&quot;" target="&quot;ENGLISH WSJ&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger model was evaluated on the English WSJ dataset."</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER (DEVLIN ET AL., 2018)&quot;" target="&quot;English Tweets Dataset&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger model was evaluated on the English Tweets dataset."</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER (DEVLIN ET AL., 2018)&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-Tagger是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER (DEVLIN ET AL., 2018)&quot;" target="&quot;CTB5&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT-Tagger was evaluated on CTB5."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER (DEVLIN ET AL., 2018)&quot;" target="&quot;CTB6&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT-Tagger was evaluated on CTB6."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER (DEVLIN ET AL., 2018)&quot;" target="&quot;UD1.4&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of BERT-Tagger was evaluated on UD1.4."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-MRC+FL&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC+FL是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-MRC+FL&quot;" target="&quot;ENGLISH CONLL 2003&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT-MRC+FL was evaluated in the English CoNLL 2003 event."</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-MRC+DL&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC+DL是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-MRC+DL&quot;" target="&quot;ENGLISH CONLL 2003&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT-MRC+DL was evaluated in the English CoNLL 2003 event."</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE 3&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_3" is the image of "TABLE 3".</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ENGLISH CONLL 2003&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"English CoNLL 2003是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ELMO(PETERS ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"ELMo(Peters et al., 2018)是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;CVT(CLARK ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CVT(Clark et al., 2018)是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BERT-TAGGER (Devlin et al., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-Tagger(Devlin et al., 2018)是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BERT-MRC(LI ET AL., 2019)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC(Li et al., 2019)是从image_5中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH CONLL 2003&quot;" target="&quot;ELMO(PETERS ET AL., 2018)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"ELMo was evaluated in the English CoNLL 2003 event."</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH CONLL 2003&quot;" target="&quot;CVT(CLARK ET AL., 2018)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"CVT was evaluated in the English CoNLL 2003 event."</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH CONLL 2003&quot;" target="&quot;BERT-TAGGER (Devlin et al., 2018)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT-Tagger was evaluated in the English CoNLL 2003 event."</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH CONLL 2003&quot;" target="&quot;BERT-MRC(LI ET AL., 2019)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT-MRC was evaluated in the English CoNLL 2003 event."</data>
+  <data key="d5">./example_output/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;ENGLISH WSJ&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"English WSJ是从image_4中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;META BILSTM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Meta BiLSTM是从image_4中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;BERT-TAGGER+FL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-Tagger+FL是从image_4中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;BERT-TAGGER+DL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-Tagger+DL是从image_4中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;BERT-TAGGER+DSC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-Tagger+DSC是从image_4中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;English Tweets Dataset&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"English Tweets是从image_4中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;FASTTEXT+CNN+CRF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"FastText+CNN+CRF是从image_4中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;TABLE 4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_4" is the image of "TABLE 4".</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH WSJ&quot;" target="&quot;META BILSTM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Meta BiLSTM model was evaluated on the English WSJ dataset."</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH WSJ&quot;" target="&quot;BERT-TAGGER+FL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger+FL model was evaluated on the English WSJ dataset."</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH WSJ&quot;" target="&quot;BERT-TAGGER+DL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger+DL model was evaluated on the English WSJ dataset."</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH WSJ&quot;" target="&quot;BERT-TAGGER+DSC&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger+DSC model was evaluated on the English WSJ dataset."</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER+FL&quot;" target="&quot;English Tweets Dataset&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger+FL model was evaluated on the English Tweets dataset."</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER+FL&quot;" target="&quot;FIGURE 1&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The graph shows the derivative of Focal Loss with γ=1, represented by a blue line that starts at -2 and increases sharply as the probability of the ground-truth label approaches 1."</data>
+  <data key="d5">./example_output/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER+FL&quot;" target="&quot;DICE SIMILARITY COEFFICIENT (DSC)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The adaptive variant of DSC mimics the idea of focal loss, which down-weights the loss for well-classified examples."</data>
+  <data key="d5">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER+DL&quot;" target="&quot;English Tweets Dataset&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger+DL model was evaluated on the English Tweets dataset."</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER+DL&quot;" target="&quot;DICE SIMILARITY COEFFICIENT (DSC)&quot;">
+  <data key="d3">15.0</data>
+  <data key="d4">"DL is compared with DSC in terms of performance on imbalanced datasets, where DSC outperforms DL."&lt;SEP&gt;"DSC is the basis for the Dice Loss function, which is used to optimize the similarity between predicted and actual values."</data>
+  <data key="d5">chunk-fbdf9d64766ea51ff2a2526d92ed5d67&lt;SEP&gt;chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER+DSC&quot;" target="&quot;English Tweets Dataset&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger+DSC model was evaluated on the English Tweets dataset."</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;English Tweets Dataset&quot;" target="&quot;FASTTEXT+CNN+CRF&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The FastText+CNN+CRF model was evaluated on the English Tweets dataset."</data>
+  <data key="d5">./example_output/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CTB5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CTB5是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CTB6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CTB6是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;UD1.4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"UD1.4是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;JOINT-POS(SIG)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Joint-POS(Sig)是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;JOINT-POS(ENS)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Joint-POS(Ens)是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;LATTICE-LSTM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Lattice-LSTM是从image_3中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;JOINT-POS(SIG)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Joint-POS(Sig) was evaluated on CTB5."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;JOINT-POS(ENS)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Joint-POS(Ens) was evaluated on CTB5."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;LATTICE-LSTM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Lattice-LSTM was evaluated on CTB5."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;POS DATASETS&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"CTB5 is one of the Chinese POS datasets included in the experimental results."</data>
+  <data key="d5">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;CHINESE TREEBANK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"CTB5 is a part of the Chinese Treebank collection of datasets."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;XINHUA&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"CTB5 includes 698 articles from Xinhua as part of its dataset."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;INFORMATION SERVICES DEPARTMENT OF HKSAR&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"CTB5 includes 55 articles from the Information Services Department of HKSAR."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB5&quot;" target="&quot;SINORAMA MAGAZINE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"CTB5 includes 132 articles from Sinorama Magazine."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB6&quot;" target="&quot;JOINT-POS(SIG)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Joint-POS(Sig) was evaluated on CTB6."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB6&quot;" target="&quot;JOINT-POS(ENS)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Joint-POS(Ens) was evaluated on CTB6."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB6&quot;" target="&quot;LATTICE-LSTM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Lattice-LSTM was evaluated on CTB6."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB6&quot;" target="&quot;POS DATASETS&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"CTB6 is one of the Chinese POS datasets included in the experimental results."</data>
+  <data key="d5">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB6&quot;" target="&quot;CHINESE TREEBANK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"CTB6 is an extension of the Chinese Treebank dataset CTB5."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CTB6&quot;" target="&quot;SINORAMA MAGAZINE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"CTB6 includes articles from Sinorama Magazine."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UD1.4&quot;" target="&quot;JOINT-POS(SIG)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Joint-POS(Sig) was evaluated on UD1.4."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UD1.4&quot;" target="&quot;JOINT-POS(ENS)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Joint-POS(Ens) was evaluated on UD1.4."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UD1.4&quot;" target="&quot;LATTICE-LSTM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of Lattice-LSTM was evaluated on UD1.4."</data>
+  <data key="d5">./example_output/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UD1.4&quot;" target="&quot;POS DATASETS&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"UD1.4 is one of the English POS datasets included in the experimental results."</data>
+  <data key="d5">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UD1.4&quot;" target="&quot;UNIVERSAL DEPENDENCIES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"UD1.4 is a dataset within the Universal Dependencies framework."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;FIGURE 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_2" is the image of "FIGURE 1".</data>
+  <data key="d5">./example_output/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FIGURE 1&quot;" target="&quot;DICE LOSS (DL)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The graph shows the derivative of Dice Loss with γ=1, represented by an orange line that starts at -1 and increases gradually as the probability of the ground-truth label approaches 1."</data>
+  <data key="d5">./example_output/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FIGURE 1&quot;" target="&quot;TVERSKY LOSS (TL)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The graph shows the derivative of Tversky Loss with β=0.5, represented by a yellow line that starts at 0 and increases gradually as the probability of the ground-truth label approaches 1."</data>
+  <data key="d5">./example_output/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FIGURE 1&quot;" target="&quot;DICE SIMILARITY COEFFICIENT (DSC)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The graph shows the derivative of Dice Similarity Coefficient, represented by a purple line that starts at -1 and increases gradually as the probability of the ground-truth label approaches 1."</data>
+  <data key="d5">./example_output/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DICE LOSS (DL)&quot;" target="&quot;MILLETARI ET AL.&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Milletari et al. proposed a change in the denominator of the dice loss function for faster convergence."</data>
+  <data key="d5">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DICE LOSS (DL)&quot;" target="&quot;TVERSKY INDEX&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Tversky index extends the concept of dice loss by incorporating a weight that trades precision and recall."</data>
+  <data key="d5">chunk-6a0850cc02a524fb440d62de49112862</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TVERSKY LOSS (TL)&quot;" target="&quot;TVERSKY INDEX (TI)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Tversky loss is derived from the Tversky index, which is a more general case of the dice coefficient."</data>
+  <data key="d5">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DICE SIMILARITY COEFFICIENT (DSC)&quot;" target="&quot;EQ.11&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Eq.11 represents the original form of the Dice Similarity Coefficient, which is the basis for the adaptive variant presented in Eq.12."</data>
+  <data key="d5">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DICE SIMILARITY COEFFICIENT (DSC)&quot;" target="&quot;MLE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"DSC achieves higher F1 scores across all datasets compared to MLE, indicating its superiority as an objective function."</data>
+  <data key="d5">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;CONLL03&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CoNLL03 NER是从image_1中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;ONTONOTES5.0&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"OntoNotes5.0 NER是从image_1中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SQUAD 1.1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SQuAD 1.1是从image_1中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SQUAD 2.0&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SQuAD 2.0是从image_1中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;QUOREF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"QUOREF是从image_1中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;TABLE 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_1" is the image of "TABLE 1".</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CONLL03&quot;" target="&quot;ONTONOTES5.0&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are named entity recognition tasks but OntoNotes5.0 has a larger dataset size and higher ratio of negative to positive samples."</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SQUAD 1.1&quot;" target="&quot;SQUAD 2.0&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"SQuAD 2.0 is an updated version of SQuAD 1.1 with more data and a higher ratio of negative to positive samples."</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SQUAD 1.1&quot;" target="&quot;QUOREF&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both are natural language processing tasks but QUOREF focuses on coreference resolution while SQuAD 1.1 is a question-answering task."</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SQUAD 2.0&quot;" target="&quot;QUOREF&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both are natural language processing tasks but QUOREF focuses on coreference resolution while SQuAD 2.0 is a question-answering task."</data>
+  <data key="d5">./example_output/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUOREF&quot;" target="&quot;SQUAD&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"SQuAD and Quoref are both QA datasets used for machine reading comprehension."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;XIAOYA LI&quot;" target="&quot;DEPARTMENT OF COMPUTER SCIENCE AND TECHNOLOGY, ZHEJIANG UNIVERSITY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Xiaoya Li is affiliated with the Department of Computer Science and Technology at Zhejiang University."</data>
+  <data key="d5">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;XIAOFEI SUN&quot;" target="&quot;DEPARTMENT OF COMPUTER SCIENCE AND TECHNOLOGY, ZHEJIANG UNIVERSITY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Xiaofei Sun is affiliated with the Department of Computer Science and Technology at Zhejiang University."</data>
+  <data key="d5">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;YUXIAN MENG&quot;" target="&quot;SHANNON.AI&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Yuxian Meng is affiliated with Shannon.AI."</data>
+  <data key="d5">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FEI WU&quot;" target="&quot;DEPARTMENT OF COMPUTER SCIENCE AND TECHNOLOGY, ZHEJIANG UNIVERSITY&quot;">
+  <data key="d3">1.0</data>
+  <data key="d4">"Fei Wu is affiliated with the Department of Computer Science and Technology("entity"</data>
+  <data key="d5">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;JIWEI LI&quot;" target="&quot;SHANNON.AI&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Jiwei Li is affiliated with Shannon.AI."</data>
+  <data key="d5">chunk-08d62444b992fc41f1eb900a71e0b520</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TVERSKY INDEX&quot;" target="&quot;CROSS ENTROPY LOSS&quot;">
+  <data key="d3">4.0</data>
+  <data key="d4">"Cross Entropy Loss and Tversky Index are both statistical measures used in classification, with Tversky Index being an extension of the Dice Coefficient."</data>
+  <data key="d5">chunk-946ca2125c9a2617892878b607022a25</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TVERSKY INDEX&quot;" target="&quot;SØRENSEN–DICE COEFFICIENT&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Sørensen–Dice Coefficient and Tversky Index are related measures used to evaluate the similarity between sets, with Tversky Index being a generalization of the Dice Coefficient."</data>
+  <data key="d5">chunk-946ca2125c9a2617892878b607022a25</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TVERSKY INDEX&quot;" target="&quot;CHINESE ONTONOTES4.0&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Tversky Index is used with the Chinese OntoNotes4.0 dataset to explore the effect of hyperparameters on performance."</data>
+  <data key="d5">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TVERSKY INDEX&quot;" target="&quot;QUOREF MRC&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Tversky Index is used with the QuoRef MRC dataset to explore the effect of hyperparameters on performance."</data>
+  <data key="d5">chunk-fbdf9d64766ea51ff2a2526d92ed5d67</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;F1 SCORE&quot;" target="&quot;F1&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The F1 score is used to measure the performance of models, and Eq.5 is a soft form of F1 using a continuous probability p."</data>
+  <data key="d5">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;F1 SCORE&quot;" target="&quot;EQ.5&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Eq.5 is a soft form of the F1 score, using a continuous probability p instead of a binary indicator function."</data>
+  <data key="d5">chunk-7796c957ecdc053bf1b6da735b8ebe5f</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MSRA&quot;" target="&quot;ONTONOTES&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"MSRA is a Chinese benchmark dataset that is part of the OntoNotes collection."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMPORTANCE SAMPLING&quot;" target="&quot;ADABOOST&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Importance sampling and AdaBoost both involve assigning weights to samples, but Importance sampling changes the data distribution while AdaBoost selects harder examples."</data>
+  <data key="d5">chunk-6a0850cc02a524fb440d62de49112862</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HARD EXAMPLE MINING&quot;" target="&quot;OVERSAMPLING&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Hard example mining and Oversampling are both techniques used to address data imbalance, but they focus on different aspects of the problem."</data>
+  <data key="d5">chunk-6a0850cc02a524fb440d62de49112862</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IOU-BALANCED SAMPLING&quot;" target="&quot;GENERALIZED DICE LOSS&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"IoU-balanced sampling and Generalized Dice Loss are both methods proposed to address class imbalance issues, but in different contexts."</data>
+  <data key="d5">chunk-6a0850cc02a524fb440d62de49112862</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CROSS ENTROPY LOSS&quot;" target="&quot;SØRENSEN–DICE COEFFICIENT&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Both Cross Entropy Loss and Sørensen–Dice Coefficient are used in the context of evaluating classification performance, though they serve different purposes."</data>
+  <data key="d5">chunk-946ca2125c9a2617892878b607022a25</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CROSS ENTROPY LOSS&quot;" target="&quot;VALVERDE ET AL.&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Valverde et al. are referenced in the context of discussing the challenges associated with the selection of weighting factors in Cross Entropy Loss for multi-class classification tasks."</data>
+  <data key="d5">chunk-946ca2125c9a2617892878b607022a25</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SØRENSEN–DICE COEFFICIENT&quot;" target="&quot;MILLETARI ET AL.&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Milletari et al. proposed a modification to the Sørensen–Dice Coefficient by changing the denominator to the square form for faster convergence."</data>
+  <data key="d5">chunk-946ca2125c9a2617892878b607022a25</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;$X_{I}$&quot;" target="&quot;$Y_{I}$&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Instance $x_{i}$ is associated with the binary label $y_{i}$, which denotes its ground-truth class."</data>
+  <data key="d5">chunk-946ca2125c9a2617892878b607022a25</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;$X_{I}$&quot;" target="&quot;$P_{I}$&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Instance $x_{i}$ has predicted probabilities $p_{i}$ for the two classes."</data>
+  <data key="d5">chunk-946ca2125c9a2617892878b607022a25</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;$X_{I}$&quot;" target="&quot;$\ALPHA_{I}$&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Instance $x_{i}$ is associated with the weighting factor $\alpha_{i}$, which adjusts its contribution to the Cross Entropy Loss."</data>
+  <data key="d5">chunk-946ca2125c9a2617892878b607022a25</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;$\ALPHA_{I}$&quot;" target="&quot;$N_{T}$&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The weighting factor $\alpha_{i}$ is calculated using the number of samples with class $t$, $n_{t}$."</data>
+  <data key="d5">chunk-946ca2125c9a2617892878b607022a25</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;$\ALPHA_{I}$&quot;" target="&quot;$N$&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The weighting factor $\alpha_{i}$ is calculated using the total number of samples in the training set, $n$."</data>
+  <data key="d5">chunk-946ca2125c9a2617892878b607022a25</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;$\ALPHA_{I}$&quot;" target="&quot;$K$&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The hyperparameter $K$ is used in the calculation of the weighting factor $\alpha_{i}$."</data>
+  <data key="d5">chunk-946ca2125c9a2617892878b607022a25</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MRPC&quot;" target="&quot;QQP&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"MRPC and QQP are both datasets used for paraphrase identification."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QQP&quot;" target="&quot;QUORA&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The QQP dataset is a collection of question pairs from Quora."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DBPEDIA&quot;" target="&quot;SPACY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Spacy is used to link mentions to their corresponding entities in DBpedia for the purpose of data augmentation."</data>
+  <data key="d5">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHINESE ONTONOTES4.0&quot;" target="&quot;WU ET AL.&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Chinese OntoNotes4.0 uses the same data split as Wu et al."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ARXIV&quot;" target="&quot;LATTICE LSTM&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"arXiv is the platform where the preprint about lattice LSTM is published."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ONTONOTES&quot;" target="&quot;CONLL2003&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"CoNLL2003 and OntoNotes are both datasets used for Named Entity Recognition."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CONLL2003&quot;" target="&quot;MA AND HOVY, 2016&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The data processing protocols for CoNLL2003 were followed as described in Ma and Hovy, 2016."</data>
+  <data key="d5">chunk-120451d86e4c306945c9349c03341263</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SQU(&quot;ENTITY&quot;" target="&quot;TABLE 6&quot;">
+  <data key="d3">1.0</data>
+  <data key="d4">"event"</data>
+  <data key="d5">chunk-4fd82d2b7d357c2a0f7e60544808d341</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

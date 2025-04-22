@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'English OntoNotes 5.0' that provides performance metrics for various models on the named entity recognition (NER) task. The table is structured with four main columns: Model, Precision (Prec.), Recall (Rec.), and F1 score. Each row represents a different model and its corresponding performance metrics. The models listed are CVT (Clark et al., 2018), BERT-Tagger (Devlin et al., 2018), BERT-MRC (Li et al., 2019), BERT-MRC+FL, BERT-MRC+DL, and BERT-MRC+DSC. The precision values range from 90.01 to 92.70, the recall values range from 88.35 to 92.56, and the F1 scores range from 88.8 to 92.07. Notably, BERT-MRC+DSC achieves the highest F1 score of 92.07, which is an improvement of +0.96 over BERT-MRC."</data>
+  <data key="d2">./example_output/images/image_6.jpg</data>
+</node>
+<node id="&quot;ENGLISH ONTONOTES 5.0&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A dataset used for evaluating the performance of different models in natural language processing tasks."</data>
+  <data key="d2">./example_output/images/image_6.jpg</data>
+</node>
+<node id="&quot;CVT (CLARK ET AL., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Clark et al. in 2018, achieving an F1 score of 88.8 on the English OntoNotes 5.0 dataset."</data>
+  <data key="d2">./example_output/images/image_6.jpg</data>
+</node>
+<node id="&quot;BERT-TAGGER (DEVLIN ET AL., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Devlin et al. in 2018, achieving a precision of 90.01, recall of 88.35, and an F1 score of 89.16 on the English OntoNotes 5.0 dataset."</data>
+  <data key="d2">./example_output/images/image_6.jpg</data>
+</node>
+<node id="&quot;BERT-MRC (LI ET AL., 2019)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Li et al. in 2019, achieving a precision of 92.98, recall of 89.95, and an F1 score of 91.11 on the English OntoNotes 5.0 dataset."</data>
+  <data key="d2">./example_output/images/image_6.jpg</data>
+</node>
+<node id="&quot;BERT-MRC+FL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BERT-MRC with FL, achieving a precision of 90.13, recall of 92.34, and an F1 score of 91.22 (+0.11) on the English OntoNotes 5.0 dataset."</data>
+  <data key="d2">./example_output/images/image_6.jpg</data>
+</node>
+<node id="&quot;BERT-MRC+DL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BERT-MRC with DL, achieving a precision of 91.70, recall of 92.06, and an F1 score of 91.88 (+0.77) on the English OntoNotes 5.0 dataset."</data>
+  <data key="d2">./example_output/images/image_6.jpg</data>
+</node>
+<node id="&quot;BERT-MRC+DSC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BERT-MRC with DSC, achieving a precision of 91.59, recall of 92.56, and an F1 score of 92.07 (+0.96) on the English OntoNotes 5.0 dataset."</data>
+  <data key="d2">./example_output/images/image_6.jpg</data>
+</node>
+<node id="&quot;TABLE 3&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Table 3 contains experimental results for Chinese POS datasets including CTB5, CTB6, and UD1.4."</data>
+  <data key="d2">./example_output/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;ENGLISH ONTONOTES 5.0&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"English OntoNotes 5.0是从image_6中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;CVT (CLARK ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CVT (Clark et al., 2018)是从image_6中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BERT-TAGGER (DEVLIN ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-Tagger (Devlin et al., 2018)是从image_6中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BERT-MRC (LI ET AL., 2019)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC (Li et al., 2019)是从image_6中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BERT-MRC+FL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC+FL是从image_6中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BERT-MRC+DL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC+DL是从image_6中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BERT-MRC+DSC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-MRC+DSC是从image_6中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;TABLE 3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_6" is the image of "TABLE 3".</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH ONTONOTES 5.0&quot;" target="&quot;CVT (CLARK ET AL., 2018)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The CVT model was evaluated on the English OntoNotes 5.0 dataset."</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH ONTONOTES 5.0&quot;" target="&quot;BERT-TAGGER (DEVLIN ET AL., 2018)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger model was evaluated on the English OntoNotes 5.0 dataset."</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH ONTONOTES 5.0&quot;" target="&quot;BERT-MRC (LI ET AL., 2019)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-MRC model was evaluated on the English OntoNotes 5.0 dataset."</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH ONTONOTES 5.0&quot;" target="&quot;BERT-MRC+FL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-MRC+FL model was evaluated on the English OntoNotes 5.0 dataset."</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH ONTONOTES 5.0&quot;" target="&quot;BERT-MRC+DL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-MRC+DL model was evaluated on the English OntoNotes 5.0 dataset."</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH ONTONOTES 5.0&quot;" target="&quot;BERT-MRC+DSC&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-MRC+DSC model was evaluated on the English OntoNotes 5.0 dataset."</data>
+  <data key="d5">./example_output/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

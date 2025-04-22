@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a line graph illustrating the derivatives of four different loss functions with respect to the probability of the ground-truth label, denoted as $\\bar{p}_i$. The x-axis represents the probability of the ground-truth label, ranging from 0 to 1. The y-axis represents the derivatives of the losses, ranging from -2 to 2. Four curves are plotted: \\nabla FL($\\gamma$=1) in blue, \\nabla DL($\\gamma$=1) in orange, \\nabla TL($\\beta$=0.5) in yellow, and \\nabla DSC in purple. The curve for \\nabla DSC approaches zero right after $\\bar{p}$ exceeds 0.5, while the other curves reach 0 only if the probability is exactly 1. This indicates that the derivative of DSC becomes negligible once the probability exceeds 0.5, whereas the other losses continue to push the probability towards 1."</data>
+  <data key="d2">./example_output/images/image_2.jpg</data>
+</node>
+<node id="&quot;GRAPH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A graph displaying the derivatives of four different loss functions: Focal Loss (FL), Dice Loss (DL), Tversky Loss (TL), and Dice Similarity Coefficient (DSC) as a function of the probability of the ground-truth label."</data>
+  <data key="d2">./example_output/images/image_2.jpg</data>
+</node>
+<node id="&quot;FOCAL LOSS (FL)&quot;">
+  <data key="d2">./example_output/images/image_2.jpg</data>
+  <data key="d1">"The graph shows the derivative of Focal Loss with γ=1, represented by a blue line that starts at -2 and increases sharply as the probability of the ground-truth label approaches 1."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;DICE LOSS (DL)&quot;">
+  <data key="d2">./example_output/images/image_2.jpg</data>
+  <data key="d1">"The graph shows the derivative of Dice Loss with γ=1, represented by an orange line that starts at -1 and increases gradually as the probability of the ground-truth label approaches 1."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TVERSKY LOSS (TL)&quot;">
+  <data key="d2">./example_output/images/image_2.jpg</data>
+  <data key="d1">"The graph shows the derivative of Tversky Loss with β=0.5, represented by a yellow line that starts at 0 and increases gradually as the probability of the ground-truth label approaches 1."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;DICE SIMILARITY COEFFICIENT (DSC)&quot;">
+  <data key="d2">./example_output/images/image_2.jpg</data>
+  <data key="d1">"The graph shows the derivative of Dice Similarity Coefficient, represented by a purple line that starts at -1 and increases gradually as the probability of the ground-truth label approaches 1."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;GRAPH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graph是从image_2中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAPH&quot;" target="&quot;FOCAL LOSS (FL)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The graph shows the derivative of Focal Loss with γ=1, represented by a blue line that starts at -2 and increases sharply as the probability of the ground-truth label approaches 1."</data>
+  <data key="d5">./example_output/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAPH&quot;" target="&quot;DICE LOSS (DL)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The graph shows the derivative of Dice Loss with γ=1, represented by an orange line that starts at -1 and increases gradually as the probability of the ground-truth label approaches 1."</data>
+  <data key="d5">./example_output/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAPH&quot;" target="&quot;TVERSKY LOSS (TL)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The graph shows the derivative of Tversky Loss with β=0.5, represented by a yellow line that starts at 0 and increases gradually as the probability of the ground-truth label approaches 1."</data>
+  <data key="d5">./example_output/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAPH&quot;" target="&quot;DICE SIMILARITY COEFFICIENT (DSC)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The graph shows the derivative of Dice Similarity Coefficient, represented by a purple line that starts at -1 and increases gradually as the probability of the ground-truth label approaches 1."</data>
+  <data key="d5">./example_output/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

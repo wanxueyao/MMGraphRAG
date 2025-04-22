@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that presents the experimental results for the machine reading comprehension (MRC) task using different models and datasets. The table is divided into rows and columns. The rows represent different models: QANet, BERT, BERT+FL, BERT+DL, BERT+DSC, XLNet, XLNet+FL, XLNet+DL, and XLNet+DSC. The columns are labeled with the datasets SQuAD v1.1, SQuAD v2.0, and QuoRef, each further divided into EM (Exact Match) and F1 scores. For example, QANet scores 73.6 on EM and 82.7 on F1 for SQuAD v1.1, while BERT scores 84.1 on EM and 90.9 on F1 for the same dataset. The table also shows the performance improvements of the proposed methods over the baseline models. For instance, BERT+DSC achieves 85.34 on EM and 91.97 on F1 for SQuAD v1.1, which is an improvement of +1.24 and +1.07 respectively over BERT. Similarly, XLNet+DSC achieves 89.79 on EM and 95.77 on F1 for SQuAD v1.1, which is an improvement of +0.84 and +1.25 respectively over XLNet. The table highlights the significant performance boost obtained by the proposed DSC loss method on both EM and F1 scores across all datasets."</data>
+  <data key="d2">./example_output/images/image_8.jpg</data>
+</node>
+<node id="&quot;QANET&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Yu et al. in 2018 for question answering tasks, achieving EM and F1 scores on SQuAD v1.1."</data>
+  <data key="d2">./example_output/images/image_8.jpg</data>
+</node>
+<node id="&quot;BERT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Devlin et al. in 2018 for various NLP tasks, including question answering, with improved EM and F1 scores on SQuAD v1.1 and v2.0."</data>
+  <data key="d2">./example_output/images/image_8.jpg</data>
+</node>
+<node id="&quot;BERT+FL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">BERT+FL is an enhanced version of the BERT model, incorporating focal loss to address class imbalance. It shows marginal improvements in Exact Match (EM) and F1 scores over the standard BERT model on SQuAD v1.1 and QuoRef datasets, indicating a slight enhancement in performance.</data>
+  <data key="d2">./example_output/images/image_8.jpg</data>
+</node>
+<node id="&quot;BERT+DL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">BERT+DL represents an adaptation of the BERT model with dynamic loss, which demonstrates notable improvements in EM and F1 scores compared to the base BERT model on SQuAD v1.1 and QuoRef. This suggests that dynamic loss is effective in enhancing the performance of BERT for question answering tasks.</data>
+  <data key="d2">./example_output/images/image_8.jpg</data>
+</node>
+<node id="&quot;BERT+DSC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">BERT+DSC is a variant of BERT that incorporates dynamic sample weighting (DSC), achieving the highest EM and F1 scores among BERT-based models on SQuAD v1.1 and QuoRef. This indicates that DSC is particularly effective in optimizing BERT for machine reading comprehension tasks by focusing on hard examples.</data>
+  <data key="d2">./example_output/images/image_8.jpg</data>
+</node>
+<node id="&quot;XLNET&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Yang et al. in 2019, surpassing BERT in EM and F1 scores on SQuAD v1.1 and v2.0."</data>
+  <data key="d2">./example_output/images/image_8.jpg</data>
+</node>
+<node id="&quot;XLNET+FL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">XLNET+FL is an enhanced version of XLNet, integrating focal loss, which maintains similar performance to the base XLNet model on SQuAD v1.1 and v2.0 datasets. This suggests that while focal loss can be beneficial in certain scenarios, in this case, it does not significantly alter the performance of XLNet.</data>
+  <data key="d2">./example_output/images/image_8.jpg</data>
+</node>
+<node id="&quot;XLNET+DL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">XLNET+DL is an adaptation of XLNet with dynamic loss, showing slight improvements over the base XLNet in EM and F1 scores on SQuAD v1.1 and v2.0. This indicates that dynamic loss can provide a modest enhancement to the performance of XLNet on question answering tasks.</data>
+  <data key="d2">./example_output/images/image_8.jpg</data>
+</node>
+<node id="&quot;XLNET+DSC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">XLNET+DSC is a version of XLNet that uses dynamic sample weighting (DSC), achieving the highest EM and F1 scores among XLNet-based models on SQuAD v1.1 and v2.0. This underscores the effectiveness of DSC in improving the performance of XLNet, particularly in the context of machine reading comprehension.</data>
+  <data key="d2">./example_output/images/image_8.jpg</data>
+</node>
+<node id="&quot;MRC TASK&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"MRC task refers to the machine reading comprehension task, which is focused on evaluating model performance in understanding and answering questions based on given text."</data>
+  <data key="d2">./example_output/images/image_8.jpg</data>
+</node>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;QANET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"QANet是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;BERT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;BERT+FL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+FL是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;BERT+DL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DL是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;BERT+DSC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DSC是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;XLNET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;XLNET+FL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet+FL是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;XLNET+DL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet+DL是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;XLNET+DSC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet+DSC是从image_8中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;MRC TASK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"IMAGE_8" is the image of "MRC TASK".</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QANET&quot;" target="&quot;BERT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT outperforms QANet in EM and F1 scores on SQuAD v1.1 and QuoRef."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;BERT+FL&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"BERT+FL shows slight improvements over BERT in EM and F1 scores on SQuAD v1.1 and QuoRef."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;BERT+DL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT+DL demonstrates significant improvements over BERT in EM and F1 scores on SQuAD v1.1 and QuoRef."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;BERT+DSC&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"BERT+DSC achieves the highest EM and F1 scores among all BERT-based models on SQuAD v1.1 and QuoRef."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;XLNET&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"XLNet surpasses BERT in EM and F1 scores on SQuAD v1.1 and v2.0."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;XLNET&quot;" target="&quot;XLNET+FL&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"XLNet+FL maintains similar performance to XLNet on SQuAD v1.1 and v2.0."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;XLNET&quot;" target="&quot;XLNET+DL&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"XLNet+DL shows slight improvements over XLNet in EM and F1 scores on SQuAD v1.1 and v2.0."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;XLNET&quot;" target="&quot;XLNET+DSC&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"XLNet+DSC achieves the highest EM and F1 scores among all XLNet-based models on SQuAD v1.1 and v2.0."</data>
+  <data key="d5">./example_output/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

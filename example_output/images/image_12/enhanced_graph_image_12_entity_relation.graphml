@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_12&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that presents the effect of hyperparameters in the Tversky Index. The table has three columns: 'α', 'Chinese Onto4.0', and 'English QuoRef'. The first column lists values of α ranging from 0.1 to 0.9 in increments of 0.1. The second column shows corresponding F1 scores for the Chinese Onto4.0 dataset, with values ranging from 80.13 to 84.67. The third column displays F1 scores for the English QuoRef dataset, ranging from 63.23 to 68.44. Notably, the highest F1 score for Chinese Onto4.0 is 84.67 at α = 0.6, while for English QuoRef, the highest F1 score is 68.44 at α = 0.4."</data>
+  <data key="d2">./example_output/images/image_12.jpg</data>
+</node>
+<node id="&quot;Performance Metrics Table&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">A table that presents a comparative analysis of performance metrics for two datasets, Chinese Onto4.0 and English QuoRef, across varying values of alpha (α) from 0.1 to 0.9. This table is likely part of a study or research paper detailing the effects of different alpha values on model performance, possibly in the context of machine learning or data analysis.</data>
+  <data key="d2">./example_output/images/image_12.jpg</data>
+</node>
+<node id="&quot;CHINESE ONTO4.0&quot;">
+  <data key="d2">./example_output/images/image_12.jpg</data>
+  <data key="d1">"The table contains performance metrics for the Chinese Onto4.0 dataset."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;ENGLISH QUOREF&quot;">
+  <data key="d2">./example_output/images/image_12.jpg</data>
+  <data key="d1">"The table contains performance metrics for the English QuoRef dataset."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;ALPHA VALUES&quot;">
+  <data key="d2">./example_output/images/image_12.jpg</data>
+  <data key="d1">"Performance metrics for Chinese Onto4.0 vary with different alpha values."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;Performance Metrics Table&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_12中提取的实体。"</data>
+  <data key="d5">./example_output/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;Performance Metrics Table&quot;" target="&quot;CHINESE ONTO4.0&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains performance metrics for the Chinese Onto4.0 dataset."</data>
+  <data key="d5">./example_output/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;Performance Metrics Table&quot;" target="&quot;ENGLISH QUOREF&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains performance metrics for the English QuoRef dataset."</data>
+  <data key="d5">./example_output/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHINESE ONTO4.0&quot;" target="&quot;ALPHA VALUES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Performance metrics for Chinese Onto4.0 vary with different alpha values."</data>
+  <data key="d5">./example_output/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH QUOREF&quot;" target="&quot;ALPHA VALUES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Performance metrics for English QuoRef vary with different alpha values."</data>
+  <data key="d5">./example_output/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>
