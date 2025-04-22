@@ -10,7 +10,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![MMGraphRAG Pipeline Overview]](https://github.com/wanxueyao/MMGraphRAG/blob/main/fig1.png)
+![MMGraphRAG Pipeline Overview](https://github.com/wanxueyao/MMGraphRAG/blob/main/fig1.png)
 
 This diagram illustrates the comprehensive workflow of the MMGraphRAG pipeline.
 
@@ -51,17 +51,17 @@ Next, let's introduce some other configurable parameters.
 
 ⚾mineru_dir is an input directory where the files processed by Mineru can be placed. It can be used for testing when the input is a Mineru web processing result.
 
-QueryParam:
+🐱QueryParam:
 
-🐵response_type: The format of the response.
+- `response_type`: The format of the response.
 
-🐶top_k: The maximum number of entities to retrieve.
+- `top_k`: The maximum number of entities to retrieve.
 
-🦊local_max_token_for_text_unit: The maximum number of tokens for entity and relation text in the retrieval results.
+- `local_max_token_for_text_unit`: The maximum number of tokens for entity and relation text in the retrieval results.
 
-🐱local_max_token_for_local_context: The maximum number of tokens for the text block (i.e., context) in the retrieval results.
+- `local_max_token_for_local_context`: The maximum number of tokens for the text block (i.e., context) in the retrieval results.
 
-🦁number_of_mmentities: The maximum number of images in the retrieval results.
+- `number_of_mmentities`: The maximum number of images in the retrieval results.
 
 4. The default YOLO model is yolov8n-seg.pt, located in the `/cache` directory.
 
@@ -81,4 +81,4 @@ When building the knowledge graph, the `input_mode` can be set to 0, 1, or 2:
 
 When answering questions, you need to set `query_mode` to `True`.
 
-For document-based question answering, examples of input and output are provided and stored in `/example_input` and `/example_output` directories. The `response.txt` file contains a comparison between the results from `mmgraphrag`(kimi + qwenvl) and ChatGPT 4o.
+For document-based question answering, examples of input and output are provided and stored in `/example_input` and `/example_output` directories. The `response.txt` file contains a comparison between the results from mmgraphrag(kimi + qwenvl) and ChatGPT 4o.
