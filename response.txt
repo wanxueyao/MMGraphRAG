@@ -1,0 +1,43 @@
+MMGraphRAG results
+1. The paper proposes to calculate the coefficient α for the Weighted Cross Entropy Loss using the following formula:
+$$\alpha = \log\left(\frac{n - n_t}{n_t} + K\right)$$
+Where:
+- \( n \) is the total number of samples in the training set.
+- \( n_t \) is the number of samples with class \( t \).
+- \( K \) is a hyperparameter to tune.
+This formula assigns less weight to the majority class and more weight to the minority class, aiming to address class imbalance in the training data.
+2. The OntoNotes4.0 dataset used for the Named Entity Recognition task is English.
+3. The model variant XLNet+DSC has the highest improvement in F1 score for the QuoRef dataset when compared to the base XLNet model, with an improvement of +1.25.
+4. The data augmentation method that resulted in the highest F1-score for the BERT model according to Table 8 is "+ positive & negative," achieving an F1-score of 93.45%.
+5. The highest F1 score achieved on the Chinese OntoNotes4.0 dataset, according to Table 10, is 84.67.
+6. The BERT-Tagger+DSC model achieved the highest F1 score in the English WSJ dataset.
+7. BERT+DSC achieved a performance boost of +0.92 in the F1 score for the MRPC dataset over the baseline BERT model.
+8. The performance of BERT+DL on SST-5 is 54.63% in terms of accuracy, while that of BERT+DSC is 55.19%. Therefore, BERT+DSC performs slightly better than BERT+DL on the SST-5 dataset.
+9. The accuracy of BERT+CE on SST-2 exceeds that of BERT+DL by 0.53%.
+10. The ratio of negative to positive examples for the Quoref task is 169.
+
+ChatGPT 4o results
+1. The paper proposes calculating the coefficient **α** for the Weighted Cross Entropy Loss using the following formula:
+\[
+\alpha_i = \frac{\log(n - n_t)}{n_t + K}
+\]
+Where:
+- \( n_t \) is the number of samples of class **t**.
+- \( n \) is the total number of samples in the training set.
+- \( K \) is a hyperparameter that can be tuned.
+This formula adjusts the weight for each class to emphasize minority classes more, thereby helping balance the data distribution during training.
+2. The **OntoNotes4.0** dataset used for the Named Entity Recognition (NER) task is **Chinese** in the context provided by the paper.
+3. From the experimental results provided in the document, the model variant with the highest improvement in the F1 score for the QuoRef dataset, compared to the base XLNet model, is XLNet+DSC (XLNet with Dice Loss).
+4. According to Table 8, the data augmentation method that resulted in the highest F1-score for the BERT model is Positive and Negative Augmentation (+positive & +negative).
+With this method, the BERT model achieved an F1 score of 93.63, which is the highest among all the data augmentation methods tested​.
+5. According to Table 10, the highest F1 score achieved on the Chinese OntoNotes4.0 dataset is **84.67**. This was obtained when the hyperparameter α was set to **0.6** in the Tversky Index.
+6. In the English WSJ dataset, the model that achieved the highest F1 score is **BERT-Tagger+DSC** (BERT-Tagger with Dice Loss). 
+This model achieved an F1 score of **99.38**, which is the highest among all the models tested.
+7. For the MRPC dataset, **BERT+DSC** (BERT with Dice Loss) achieved a performance boost of **+0.92** in the F1 score. The F1 score increased from **88.0** with the base BERT model to **88.92** with BERT+DSC.
+8. For the SST-5 dataset, the performance comparison between **BERT+DL** (BERT with Dice Loss) and **BERT+DSC** (BERT with Soft Dice Loss) is as follows:
+- **BERT+DL** achieved an accuracy of **54.63**.
+- **BERT+DSC** achieved an accuracy of **55.19**.
+Thus, **BERT+DSC** outperforms **BERT+DL** by **+0.56** in accuracy on the SST-5 dataset.
+9. On the SST-2 dataset, **BERT+CE** (BERT with Cross-Entropy loss) achieved an accuracy of **94.90**, while **BERT+DL** (BERT with Dice Loss) achieved an accuracy of **94.37**.
+The accuracy of **BERT+CE** exceeds that of **BERT+DL** by **+0.53**.
+10. The ratio of negative to positive examples for the QuoRef task is **169:1**, as stated in Table 1 of the document.
