@@ -34,6 +34,9 @@ pip install python-docx
 pip install PyMuPDF
 pip install ultralytics
 pip install tiktoken
+pip install sentence_transformers
+pip install nano_vectordb
+pip install numpy==1.26.4
 pip install -U "magic-pdf[full]"
 ```
 
