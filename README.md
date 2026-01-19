@@ -326,6 +326,74 @@ python examples/docqa_example.py
 
 ---
 
+## 🧪 Evaluation Reference (eval_reference)
+
+The `eval_reference/` directory contains **reference code** for document QA evaluation on two benchmark datasets:
+
+- **DocBench**: [https://github.com/Anni-Zou/DocBench](https://github.com/Anni-Zou/DocBench)
+- **MMLongBench**: [https://github.com/EdinburghNLP/MMLongBench](https://github.com/EdinburghNLP/MMLongBench)
+
+> [!CAUTION]
+> **This code is for reference only and cannot be used directly.**
+>
+> MMGraphRAG has undergone a major refactoring that:
+> - Fixed compatibility issues caused by MinerU updates
+> - Enhanced robustness for resumable execution
+> - Removed redundant functionality
+>
+> Even reproducing results with the previous version would be quite challenging due to the more complex MinerU configuration requirements.
+
+### Recommended Approach for Reproduction
+
+If you wish to reproduce the evaluation results, we recommend **rewriting based on the refactored codebase**, using:
+
+1. `eval_reference/` as a reference for evaluation logic
+2. `examples/docqa_example.py` as a template for building the QA pipeline
+
+### Directory Structure
+
+```
+eval_reference/
+├── docbench_eval/              # DocBench dataset evaluation
+│   ├── QA.py                      # Main QA script (MMGraphRAG, GraphRAG, LLM, MMLLM, NaiveRAG)
+│   ├── evaluate.py                # Evaluation metrics calculation
+│   ├── eval_llm.py                # LLM-based evaluation
+│   ├── mineru_docbench.py         # MinerU preprocessing for DocBench
+│   ├── naive_rag.py               # Naive RAG baseline
+│   ├── check.py                   # MinerU preprocessing Result checking utilities
+│   ├── result.py                  # Result aggregation
+│   └── evaluation_prompt.txt      # Evaluation prompts
+│
+└── mmlongbench_eval/           # MMLongBench dataset evaluation
+    ├── run.py                     # Main evaluation script (supports multiple methods)
+    ├── eval_score.py              # Scoring functions
+    ├── extract_answer.py          # Answer extraction utilities
+    ├── mineru_mmlongbench.py      # MinerU preprocessing for MMLongBench
+    └── prompt_for_answer_extraction.md  # Answer extraction prompts
+```
+
+### Brief Overview
+
+| File | Purpose |
+|------|---------|
+| `QA.py` / `run.py` | Main entry points for running different QA methods (MMGraphRAG, GraphRAG, LLM, MMLLM, NaiveRAG) |
+| `evaluate.py` / `eval_score.py` | Evaluation metrics (accuracy, F1, etc.) |
+| `mineru_*.py` | MinerU-based PDF preprocessing for each dataset |
+
+> [!NOTE]
+> **Honest Disclaimer**: This evaluation code has not been polished for the research community and may appear somewhat messy. We warmly welcome contributions to improve this section of the codebase!
+
+### Performance Notes
+
+The refactored codebase demonstrates **improved performance** in small-scale testing (e.g., examples from the DocBench dataset). This improvement may be attributed to:
+
+- Enhanced parsing accuracy from MinerU updates
+- Performance improvements in the models used compared to the original experiments
+
+When the paper is published, if the codebase remains unchanged, we plan to conduct a more thorough cleanup of this evaluation code.
+
+---
+
 <p align="center">
   <i>Letting Hues Quietly weave through knowledge graph 🎨</i><br>
   <i>a small graph with big dreams ✨</i>

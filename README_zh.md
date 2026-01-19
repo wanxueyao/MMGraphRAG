@@ -322,6 +322,74 @@ python examples/docqa_example.py
 
 ---
 
+## 🧪 评测参考代码 (eval_reference)
+
+`eval_reference/` 目录包含了在两个基准数据集上进行文档问答评测的**参考代码**：
+
+- **DocBench**: [https://github.com/Anni-Zou/DocBench](https://github.com/Anni-Zou/DocBench)
+- **MMLongBench**: [https://github.com/EdinburghNLP/MMLongBench](https://github.com/EdinburghNLP/MMLongBench)
+
+> [!CAUTION]
+> **此代码仅供参考，无法直接使用。**
+>
+> MMGraphRAG 经历了大规模重构：
+> - 修复了 MinerU 更新导致的兼容性问题
+> - 增强了接续运行的鲁棒性
+> - 删除了冗余功能
+>
+> 即使使用之前版本的代码进行复现也会相当麻烦，因为 MinerU 的配置会更加复杂。
+
+### 复现建议
+
+如果您希望复现评测结果，我们建议**基于重构后的代码进行重写**，参考：
+
+1. `eval_reference/` 作为评测逻辑的参考
+2. `examples/docqa_example.py` 作为构建问答流程的模板
+
+### 目录结构
+
+```
+eval_reference/
+├── docbench_eval/              # DocBench 数据集评测
+│   ├── QA.py                      # 主问答脚本（MMGraphRAG, GraphRAG, LLM, MMLLM, NaiveRAG）
+│   ├── evaluate.py                # 评测指标计算
+│   ├── eval_llm.py                # 基于 LLM 的评估
+│   ├── mineru_docbench.py         # DocBench 的 MinerU 预处理
+│   ├── naive_rag.py               # Naive RAG 基线
+│   ├── check.py                   # MinerU 处理结果检查工具
+│   ├── result.py                  # 结果汇总
+│   └── evaluation_prompt.txt      # 评测提示词
+│
+└── mmlongbench_eval/           # MMLongBench 数据集评测
+    ├── run.py                     # 主评测脚本（支持多种方法）
+    ├── eval_score.py              # 评分函数
+    ├── extract_answer.py          # 答案提取工具
+    ├── mineru_mmlongbench.py      # MMLongBench 的 MinerU 预处理
+    └── prompt_for_answer_extraction.md  # 答案提取提示词
+```
+
+### 简要说明
+
+| 文件 | 用途 |
+|------|------|
+| `QA.py` / `run.py` | 运行不同问答方法的主入口（MMGraphRAG, GraphRAG, LLM, MMLLM, NaiveRAG）|
+| `evaluate.py` / `eval_score.py` | 评测指标（准确率、F1 等）|
+| `mineru_*.py` | 各数据集的 MinerU PDF 预处理 |
+
+> [!NOTE]
+> **坦诚说明**：这部分评测代码尚未进行面向科研社区的整理，可能显得有些混乱。我们非常欢迎针对这部分代码的改进贡献！
+
+### 性能说明
+
+重构后的代码在小规模测试中（例如 `examples` 中的示例来自 DocBench 数据集）表现效果要好于之前的版本。这可能得益于：
+
+- MinerU 解析准确率的提升
+- 与实验时所用模型相比，当前模型性能的提升
+
+后续论文发布时，如果代码没有变化，我们可能会对这部分评测代码进行一次相对细致的整理。
+
+---
+
 <p align="center">
   <i>Letting Hues Quietly weave through knowledge graph 🎨</i><br>
   <i>a small graph with big dreams ✨</i>

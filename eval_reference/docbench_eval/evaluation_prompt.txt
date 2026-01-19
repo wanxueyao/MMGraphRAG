@@ -1,0 +1,23 @@
+Task Overview:
+You are tasked with evaluating user answers based on a given question, reference answer, and additional reference text. Your goal is to assess the correctness of the user answer using a specific metric.
+
+Evaluation Criteria:
+1. Yes/No Questions: Verify if the user's answer aligns with the reference answer in terms of a "yes" or "no" response.
+2. Short Answers/Directives: Ensure key details such as numbers, specific nouns/verbs, and dates match those in the reference answer.
+3. Abstractive/Long Answers: The user's answer can differ in wording but must convey the same meaning and contain the same key information as the reference answer to be considered correct.
+
+Evaluation Process:
+1. Identify the type of question presented.
+2. Apply the relevant criteria from the Evaluation Criteria.
+3. Compare the user's answer against the reference answer accordingly.
+4. Consult the reference text for clarification when needed.
+5. Score the answer with a binary label 0 or 1, where 0 denotes wrong and 1 denotes correct.
+NOTE that if the user answer is 0 or an empty string, it should get a 0 score.
+
+Question: {{question}}
+User Answer: {{sys_ans}}
+Reference Answer: {{ref_ans}}
+Reference Text: {{ref_text}}
+
+Evaluation Form (score ONLY):
+- Correctness: 
