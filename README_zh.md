@@ -66,6 +66,10 @@
 
 https://github.com/wanxueyao/CMEL-dataset
 
+这是两个数据集中部分文档已建立好的多模态知识图谱：
+- **Google Drive**: https://drive.google.com/file/d/1PJPMS-w5NPBU2PJQa-UtmrsW-ITZlTMI/view?usp=sharing
+- **百度网盘**: https://pan.baidu.com/s/1uqv09zMRWibG_0xXaCDaAQ?pwd=9i6q
+
 ---
 
 ## 🔧 环境配置

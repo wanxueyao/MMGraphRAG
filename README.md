@@ -70,6 +70,10 @@ Our Cross-Modal Entity Linking (CMEL) dataset is available here:
 
 https://github.com/wanxueyao/CMEL-dataset
 
+Here is a pre-built multimodal knowledge graph for partial documents in two datasets:
+- **Google Drive**: https://drive.google.com/file/d/1PJPMS-w5NPBU2PJQa-UtmrsW-ITZlTMI/view?usp=sharing
+- **Baidu Netdisk**: https://pan.baidu.com/s/1uqv09zMRWibG_0xXaCDaAQ?pwd=9i6q
+
 ---
 
 ## 🔧 Environment Setup
